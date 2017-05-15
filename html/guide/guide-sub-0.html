@@ -1,0 +1,62 @@
+<article class="col m12 s12 contents-bg">
+	<section class="row"></section>
+	<div>
+		<h4 class="section-h4">职业简介</h4>
+		<div id="radar" class="center-block" style="width: auto;height:400px;"></div>
+		<div class="center-align">
+			<p>信仰冥王乌希尔，擅长操纵暗影和灵魂进行战斗的女鬼剑士，在副本中扮演着多面手的角色。</p>
+			<p>输出环境和技能形态良好，技能数据中上，擅长在控制敌人后制造爆发输出，而相比之下持续输出则稍显无力；</p>
+			<p>团队适应性良好，进可担当主力输出，退可提供辅助控制。根据投入力度的不同，能满足不同类型玩家的需求。</p>
+			<p>适合新手上路，入门容易，精通难度低；当前版本强度中上，流派简洁，易于培养。</p>
+		</div>
+	</div>
+	<section>
+		<h4 class="section-h4">背景故事</h4>
+		<div class="container story">
+			<p>朋友们，起来吧。复仇的时刻到了。</p>
+			<p>在漫长的岁月里躲在黑暗中的我们，面前终于出现了死亡使者。</p>
+			<p>他说，奋勇向前杀敌吧。</p>
+			<p>接受乌希尔大人的授意，把这一文不名的世界变得更有价值。</p>
+			<p>睁眼看，抬起头，拿着武器向前冲吧。</p>
+			<p>铭记乌希尔大人的教导，看清这肮脏的世界吧。</p>
+			<p>竟敢把我们称作异端，愚蠢的人们真是悲哀！</p>
+			<p>他们将招致不幸，他们的土地将荒废殆尽。</p>
+			<p>惩戒那些纵容混乱之人。</p>
+			<p>为倒下的同伴，和未来的后代们建立天国吧。</p>
+			<p>患病之人，穷困之人，失去家族之人，机会已经来临，都站起来吧。</p>
+			<p>长久隐匿的日子已经结束，这世界终将属于我们。</p>
+			<p>谨以至高无上的裁决女神之戒律，来馈赠他们最悲惨的死亡吧！</p>
+			<br>
+			<p class="right-align">——&nbsp;&nbsp;某日蚀之时，乌希尔的信徒们撒向全阿拉德大陆的行动文书</p>
+		</div>
+	</section>
+</article>
+<script>
+	var myChart = echarts.init(document.getElementById('radar'));
+
+	var option = {
+		tooltip: {},
+		radar: {
+			indicator: [
+				{name: '输出', max: 11},
+				{name: '形态', max: 11},
+				{name: '辅助', max: 11},
+				{name: '生存', max: 11},
+				{name: '控制', max: 11},
+				{name: '连击', max: 11}
+			]
+		},
+		series: [{
+			type: 'radar',
+			areaStyle: {normal: {}},
+			data: [
+				{
+					value: [9, 8, 7, 8, 10, 6],
+					name: ['暗帝']
+				}
+			]
+		}]
+	};
+
+	myChart.setOption(option);
+</script>

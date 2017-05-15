@@ -1,0 +1,93 @@
+<section class="col m12 s12 contents-bg" style="min-height: 625px">
+	<section>
+		<h4 class="section-h4">
+			测试人物属性说明
+		</h4>
+		<div class="col s12 m5 valign-wrapper">
+			<img class="responsive-img" src="img/人物面板.jpg" alt="人物面板">
+		</div>
+		<div class="col s12 m4 pull-m1">
+			<dl>
+				<dt>人物设定：</dt>
+				<dd>
+					<ul>
+						<li><span class="attr">智力</span>：3500</li>
+
+						<li><span class="attr">基础魔攻</span>：1200</li>
+
+						<li><span class="attr">其他魔攻</span>：500</li>
+
+						<li><span class="attr">无视魔攻</span>：1191</li>
+
+						<li><span class="attr">暴击</span>：100.0%</li>
+
+						<li><span class="attr">属性强化值</span>：200</li>
+
+						<li><span class="attr">技能攻击力增加</span>：0%</li>
+
+						<li><span class="attr">黄字增加</span>：0%</li>
+
+						<li><span class="attr">白字增加</span>：34%</li>
+
+						<li><span class="attr">爆伤增加</span>：0%</li>
+
+						<li><span class="attr">魔攻增加</span>：30%</li>
+
+						<li><span class="attr">全攻增加</span>：0%</li>
+
+						<li><span class="attr">黄字追加</span>： 0%</li>
+
+						<li><span class="attr">暴伤追加</span>： 0%</li>
+
+						<li><span class="attr">智力追加</span>： 0%</li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<dl class="col s12 m12">
+			<dt>副本环境设定：</dt>
+			<dd>
+				<ul>
+					<li><span class="attr">副本区域</span>：卢克RAID</li>
+
+					<li><span class="attr">防御减伤</span>：10.07%</li>
+
+					<li><span class="attr">无视减伤</span>： 80%</li>
+
+					<li><span class="attr">减伤率下限</span>：10.96%</li>
+				</ul>
+			</dd>
+		</dl>
+		<h4 class="section-h4 clearfix">计算标准说明：</h4>
+		<ol>
+			<li>提升率的计算标准均以角色在副本内的属性为准，会考虑部分技能（如[魔法暴击]等）和药剂（如日常三药等）、道具（如晶体契约等）的影响。</li>
+			<li>所有部位的提升率计算均会考虑装备的基础属性（如智力、魔攻），因对于部分装备而言，基础属性也是提升率组成的重要部分。
+				因此对于“[无尽贪食之殇]的单件提升率约为32%”这样的计算结果不要表示惊讶，这是考虑其基础智力属性的结果。
+				同时，基础属性（如智力、魔攻）的提升会随着自身属性的提高或与圣骑等具备基础属性增益能力的职业组队而降低，请自行衡量这一影响。
+			</li>
+			<li>所有部位的提升率计算均未考虑装备的暴击率属性（即默认暴击率为100%）。
+				一方面，在合理搭配的前提下，几乎所有的主流搭配方案均可以做到暴击率达到100%；
+				另一方面，暴击率的提升计算方式多为计算其期望值，而使用期望值不能完全反映该装备的实际提升。
+			</li>
+			<li>所有部位的提升率计算均未技能CD削减或重置效果，因其不易量化，请自行衡量这一影响。</li>
+			<li>所有部位的提升率计算均未考虑同类装备加法算法导致的稀释效果（除附加伤害外，默认附加伤害值为34%），
+				但为了详细揭示部分常用装备的实际提升效果，在计算提升率时会加设一些条件，以揭示稀释效果下该装备的实际提升。
+			</li>
+			<li>所有部位的提升率计算均未考虑同类装备冲突时的覆盖效果，因几乎所有的主流搭配方案均不会刻意制造冲突。</li>
+			<li>
+				所有部位的提升率计算均考虑了技能等级加成带来的影响， 并将这一部分的提升率单独列出以供参考。
+				计算方法为：
+				<blockquote>
+					<p>以考虑其他道具（其他装备、时装、附魔宝珠、白金徽章等）的各技能等级为基准</p>
+					<p>首先根据基准技能等级的数据和每级成长来量化被动技能的收益，整体收益记为a</p>
+					<p>然后量化主动技能的收益，首先根据技能数据和技能使用次数，模拟出各技能占总输出的比例</p>
+					<p><strong>以安徒恩&卢克等副本中对绿名&BOSS的使用情况进行模拟</strong></p>
+					<p>然后根据基准技能等级的数据和每级成长，以输出比例为权重量化主动技能的收益，整体收益记为b</p>
+					<p>最后得到技能等级加成的收益=（1+a）*（1+b）-1，大致可以反映技能等级加成带来的平均收益</p>
+					<p><strong>但实际上权重的分布很大程度上会受到个人操作风格等的影响，所以计算结果仅供参考</strong></p>
+				</blockquote>
+			</li>
+			<li>武器的提升率计算是以90级史诗短剑（强化等级12）的基础属性为基准考虑，超过部分计为正提升，不足部分计为负提升。</li>
+		</ol>
+	</section>
+</section>
