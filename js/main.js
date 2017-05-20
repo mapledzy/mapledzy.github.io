@@ -509,6 +509,7 @@ app.run(function ($rootScope) {
 	$rootScope.$on('$viewContentLoaded',
 			function (event) {
 				$rootScope.preloader = false;
+				$('html, body').animate({scrollTop: 0}, 0);
 			});
 
 });
