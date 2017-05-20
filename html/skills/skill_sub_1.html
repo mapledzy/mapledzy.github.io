@@ -1,523 +1,526 @@
-<div class="col m10 s12 contents-bg">
-    <section id="Black-Mirror" class="section scrollspy">
-        <h3 class="section-h3">
-            <img class="skill-icon"
-                 src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0NGNTJBNDRGMUIyMTFFM0JENEY5Q0NCQjY3RkM5MkMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0NGNTJBNDNGMUIyMTFFM0JENEY5Q0NCQjY3RkM5MkMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDUyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAjQAAAgIDAAAAAAAAAAAAAAAABgcBBQIDBAEAAwEBAAAAAAAAAAAAAAAAAwQFAAIQAAAEBAMGBAUFAAAAAAAAAAECAwQREhMFABQGITFBUSIVYYEjFnGhQlIHwTKyM0MRAAEDAQUGBAcBAAAAAAAAAAEAEQIDITFBEgRhcYGRwRPhQhQF8FEiMmKCIxX/2gAMAwEAAhEDEQA/AEI9Zrs6KbxuBHKyCToqhuqoi4JUIoA8YzQHxAQwKlWjUfLgSDvC7nAxZ8Q6srdpVBzpx5e3SuVJODSypSxF07AwGV3Ab0yEASxHZMO+MMJanXGNUU4h2tlsCYpacGBkeG9U5USgcUzpFTXSjUA4bCmKHVGO/wAMUISEg4uSsokFiursd1o1csbJ5LuckRjlq1DMU4R/d1Q3ybcA9ZTdn82X9mf42ovYk3DNwRHrhke26M081clA7pRmi/tboB6yIu0p1EDcyzAJy8h8MTNFIy1MzG5yCN1xTVZuzF+HVM/Q2gC6yYNFXJiNrJZ0StGbVKMAmIVUT7Y9RwOUTG44h6jUmlIt90i5KbLMLNyW/wCRrParVq21kcBmUXUyr1IgiWogVcU28RDioBBAw8S4r+3VakqExGxrtha3kl9QIZ4k439ER9hvHvzu06dfsHfKH+OVrUcvLup0eiH64V7kfS5cO5l2u1+97UR/7P8Ail3e9QnvLOzIqGFU1taEanUEJSFBMJEiF5yEAZh5j4YuaTSmnOcsJSs6pGtVEoxAwCPtE/lW82LTLO1MAKo7WAGYoiWJgUTESJj8VEhJD4Yia324GrImyN/A38i6dpVQYxxNyBtaXI111M5UaLgug0SRZNXACIkMVmmUswD9oqgYY4s+20MtBpBjJyePgk9VUepZdGzl4qw9/L+4czXVyXa+2ZeUKuXhUy3L+z690u3Cv+fLs5G+rPm2b+WCN6iPczeXKhU9aUsktGHozxjDhGGyaHLFtT1DXucVclPPSPXozTUpRnjDbCWPlHAK3bsztfY/zRKee3KsEq/p0qcuyX7fCMdkPlg6GtnTD6c15U5Jv5R8pcZZf//ZLyogIHx4R3YwMHwyZDg0NmU1OTJlYmI1N2M4ZjdiYTRjZWJkMjcwZDNkMiAqLw=="
-                 width="28" height="28" alt="Black-Mirror icon">
-            魔镜幻影阵&nbsp;-&nbsp;
-            <small>
-                Black&nbsp;Mirror
-            </small>
-        </h3>
-        <ul>
-            <li><span class="attr">学习等级</span>：Lv 35</li>
-            <li><span class="attr">所需SP</span>：40</li>
-            <li><span class="attr">最大可学等级</span>：Lv 28/Lv 31（达人契约）</li>
-            <li><span class="attr">精通等级</span>：Lv 50</li>
-            <li><span class="attr">掌握上限等级</span>：Lv 60</li>
-            <li><span class="attr">加点建议</span>：满级</li>
-            <li><span class="attr">技能消耗</span>：[无色小晶块]1个</li>
-            <li><span class="attr">施放时间</span>：0.7s</li>
-            <li><span class="attr">冷却时间</span>：15s</li>
-        </ul>
-        <h4 class="section-h4">技能描述</h4>
-        <p>在前方生成镜阵限制敌人的移动范围，并给予暗属性伤害。</p>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Lv 1</th>
-                    <th>成长</th>
-                    <th>Lv 28</th>
-                    <th>Lv 28+Ex 5</th>
-                    <th>Lv 31</th>
-                    <th>Lv 31+Ex 5</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>镜阵生成魔法攻击力</th>
-                    <td>445%</td>
-                    <td>70.81%</td>
-                    <td>2357%</td>
-                    <td>3536%</td>
-                    <td>2569%</td>
-                    <td>3854%</td>
-                </tr>
-                <tr>
-                    <th>镜阵HP值</th>
-                    <td>6158</td>
-                    <td>—</td>
-                    <td>121087</td>
-                    <td>121087</td>
-                    <td>151660</td>
-                    <td>151660</td>
-                </tr>
-                <tr>
-                    <th>幻影魔法攻击力</th>
-                    <td>445%</td>
-                    <td>70.81%</td>
-                    <td>2357%</td>
-                    <td>3536%</td>
-                    <td>2569%</td>
-                    <td>3854%</td>
-                </tr>
-                <tr>
-                    <th>防护罩持续时间</th>
-                    <td>12s</td>
-                    <td>12s</td>
-                    <td>12s</td>
-                    <td>12s</td>
-                    <td>12s</td>
-                    <td>12s</td>
-                </tr>
-                <tr>
-                    <th>防护罩防御次数</th>
-                    <td>4次</td>
-                    <td>0.25次</td>
-                    <td>11次</td>
-                    <td>11次</td>
-                    <td>11次</td>
-                    <td>11次</td>
-                </tr>
-                <tr>
-                    <th>防护罩伤害吸收率</th>
-                    <td>50%</td>
-                    <td>50%</td>
-                    <td>50%</td>
-                    <td>50%</td>
-                    <td>50%</td>
-                    <td>50%</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <h4 class="section-h4">技能说明</h4>
-        <ul class="browser-default">
-            <li>
-                镜阵生成时会升起多面镜片，镜片接触到敌人时产生攻击判定，同时对可移动敌人造成强制位移，将敌人聚拢至镜阵中心/隔离至镜阵周围。
-                <br>
-                镜阵的生成攻击次数最多约为10次（待确认），实际命中次数与镜阵的生成位置以及敌人的体型有关，一般可命中5~7次。
-            </li>
-            <li>
-                镜阵生成后，会限制敌人的移动范围，镜阵周围的敌人无法再进入镜阵，镜阵中心的敌人也无法离开镜阵
-                <br>
-                （注：<span class="monster">巡视者梅尔塔</span>被聚拢至镜阵中心后，镜阵消失前无法跳出镜阵，相关场合请慎用）。
-                <br>
-                同时，镜片中寄宿的幻影会在相对的镜片间先后弹射并发动2次攻击，对敌人造成伤害，对自身和队友赋予防护罩。
-                <br>
-                幻影的攻击次数最多约为10次*2（待确认），实际命中次数与敌人Y轴方向上的体型有关，一般可命中5~7次。
-                <br>
-                幻影攻击具有一定的Z轴范围限制，对于贴近地面的目标无法命中。
-            </li>
-            <li>
-                镜阵具有HP值和物体性质。
-                <br>
-                镜阵的HP值与技能等级大致呈二次函数的关系。若镜阵的HP值归零，则会提前消失。
-                <br>
-                镜阵的物体性质可以为镜阵内的友军阻挡非穿透性伤害，或是作为物体单位承担部分效果，如<span class="monster">恐怖邪念体</span>的黑色火焰、<span class="monster">崩溃的哈布</span>的火焰帷幕等。
-            </li>
-            <li>
-                幻影赋予防护罩的过程具有攻击判定，会对自身和队友造成被击判定，因此可以用于触发多种效果。
-                <br>
-                攻击判定：可以用于触发<span class="item">荒古遗尘</span>系列武器积攒魔能的效果，以及<span class="skill">汲魂之力</span>汲取灵魂的效果等（视为“自身”攻击“自身和队友”）。
-                <br>
-                被击判定：可以用于触发“被攻击时”类型的装备特效，如<span class="item">霸域英豪</span>套装等（视为“自身和队友”被攻击）。
-            </li>
-            <li>幻影赋予的防护罩在持续时间和防御次数内具有吸收伤害的效果，且能够使角色在被攻击时不会进入僵直状态，但无法防御抓取效果。</li>
-        </ul>
-        <h4 class="section-h4">异界加持</h4>
-        <dl>
-            <dt class="degenerator-3">3期勇者 - [暗幕之王] 套装</dt>
-            <dd><span>[6]</span>&nbsp;-&nbsp;件套效果 CD-20% 防护罩防御次数+1 防护罩伤害吸收率+5%</dd>
-            <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 CD-25% 防护罩防御次数+1 防护罩伤害吸收率+5%</dd>
-        </dl>
-        <div class="border-purple">
-            <h5>技能点评</h5>
-            <p>核心的输出型技能之一。输出很高的大范围AOE技能，同时具备与其输出不相匹配的较短CD以及众多功能性效果，俗称<strong>“镜子”</strong>。</p>
-            <p>作为低阶的无色技能，镜子的输出却不亚于部分高阶无色技能，并且具有范围大、CD短、可脱手等优点。</p>
-            <p>同时也可谓是众多技能中功能性最为全面的技能之一，具体功能在[技能说明]中已详细介绍。</p>
-            <p>核心输出型技能，建议SP&TP双满。</p>
-        </div>
-    </section>
-    <section id="Liberate-madness" class="section scrollspy">
-        <h3 class="section-h3">
-            <img class="skill-icon"
-                 src="data:image/jpeg;base64,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"
-                 width="28" height="28" alt="Liberate-madness icon">
-            释魂狂怒&nbsp;-&nbsp;
-            <small>
-                Liberate&nbsp;madness
-            </small>
-        </h3>
-        <ul>
-            <li><span class="attr">学习等级</span>：Lv 35</li>
-            <li><span class="attr">所需SP</span>：30</li>
-            <li><span class="attr">最大可学等级</span>：Lv 28/Lv 31（达人契约）</li>
-            <li><span class="attr">精通等级</span>：Lv 50</li>
-            <li><span class="attr">掌握上限等级</span>：Lv 60</li>
-            <li><span class="attr">加点建议</span>：1级/满级</li>
-            <li><span class="attr">施放时间</span>：0.3s</li>
-            <li><span class="attr">冷却时间</span>：15s</li>
-        </ul>
-        <h4 class="section-h4">技能描述</h4>
-        <p>生成魔法阵后浮空敌人，然后发射灵魂，对魔法阵内的敌人造成伤害。</p>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Lv 1</th>
-                    <th>成长</th>
-                    <th>Lv 28</th>
-                    <th>Lv 28+Ex 5</th>
-                    <th>Lv 31</th>
-                    <th>Lv 31+Ex 5</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>魔法阵范围</th>
-                    <td>300px</td>
-                    <td>300px</td>
-                    <td>300px</td>
-                    <td>300px</td>
-                    <td>300px</td>
-                    <td>300px</td>
-                </tr>
-                <tr>
-                    <th>爆炸魔法攻击力</th>
-                    <td>8800%</td>
-                    <td>892.31%</td>
-                    <td>32900%</td>
-                    <td>49350%</td>
-                    <td>35570%</td>
-                    <td>53355%</td>
-                </tr>
-                <tr>
-                    <th>消耗灵魂个数</th>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                </tr>
-                <tr>
-                    <th>命中目标时额外汲取灵魂数</th>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <h4 class="section-h4">技能说明</h4>
-        <ul class="browser-default">
-            <li>此技能无法享受<span class="skill">薄暮</span>的技能伤害加成效果。</li>
-            <li><span class="skill">释魂狂怒</span>为无属性技能，可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准。
-            </li>
-            <li>魔法阵生成时，对范围内的敌人具有<strong>控制效果(Superhold)</strong>。位于魔法阵内的敌人会立即进入控制状态并强制浮空（除建筑/装置型敌人外），爆炸攻击结束后控制效果结束。
-            </li>
-            <li>消耗灵魂个数与魔法阵内敌人的个数无关，为固定值。学习<span class="skill">薄暮</span>后，消耗灵魂个数会减少，并直接体现在技能数据中。</li>
-            <li>魔法阵攻击结束后，若成功命中目标，则可以额外汲取15个灵魂，额外汲取量与命中目标个数无关；额外汲取灵魂的功能与技能本身触发<span class="skill">汲魂之力</span>汲取灵魂效果的功能不冲突。
-            </li>
-            <li>若敌人在<span class="skill">释魂狂怒</span>的控制状态下死亡，则尸体会保留至控制时间结束后消失。</li>
-        </ul>
-        <div class="border-purple">
-            <h5>技能点评</h5>
-            <p>具备出色输出的范围性控制技能，同时能够提供额外的灵魂汲取效果。爆炸攻击的溅射效果删除后，技能本身的严重卡顿现象也不复存在。</p>
-            <p>虽然能够提供的控制时间较短，但由于出色的强制控制&滞空效果，使其成为控制技能间衔接的主力，并能够提供一定的输出。</p>
-            <p>由于是转职后技能中唯一的无属性技能，因此需要通过装备、附魔、药剂、晶体契约等手段为其赋予暗属性（<span class="item">暗黑倾向药剂</span>、<span
-                    class="item">幽魂魅影</span>套装、<span class="item">荒古遗尘</span>系列武器等）。</p>
-            <p>核心功能性技能&输出型技能，建议根据个人习惯选择学习1级/满级。</p>
-        </div>
-    </section>
-    <section id="Congest" class="section scrollspy">
-        <h3 class="section-h3">
-            <img class="skill-icon"
-                 src="data:image/jpeg;base64,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"
-                 width="28" height="28" alt="Congest icon">
-            暗影蓄能&nbsp;-&nbsp;
-            <small>
-                Congest
-            </small>
-        </h3>
-        <ul>
-            <li><span class="attr">学习等级</span>：Lv 35</li>
-            <li><span class="attr">所需SP</span>：100</li>
-            <li><span class="attr">最大可学等级</span>：Lv 1（精通）</li>
-            <li><span class="attr">精通等级</span>：Lv 1</li>
-            <li><span class="attr">掌握上限等级</span>：Lv 11</li>
-            <li><span class="attr">加点建议</span>：1级</li>
-            <li><span class="attr">施放时间</span>：0.5s</li>
-            <li><span class="attr">冷却时间</span>：5s</li>
-        </ul>
-        <h4 class="section-h4">技能描述</h4>
-        <p>积蓄能量，增加技能攻击力。</p>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Lv 1</th>
-                    <th>成长</th>
-                    <th>Lv 11</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>技能攻击力增加率</th>
-                    <td>15%</td>
-                    <td>2%</td>
-                    <td>35%</td>
-                </tr>
-                <tr>
-                    <th>持续时间</th>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <h4 class="section-h4">技能说明</h4>
-        <ul class="browser-default">
-            <li>开启<span class="skill">暗影蓄能</span>Buff后，增加转职后技能（除<span class="skill">影刃</span>外）的技能攻击力；技能攻击力增加率于开启时锁定，切换装备后依旧保持。
-            </li>
-            <li>
-                堆砌<span class="skill">暗影蓄能</span>技能等级的方法请查阅《第二章：Buff堆砌》
-                <p>
-                    <a ui-sref="novice.2" class="waves-effect waves-purple btn-flat">
-                        点击查看《第二章：Buff堆砌》
-                    </a>
-                </p>
-            </li>
-        </ul>
-        <div class="border-purple">
-            <h5>技能点评</h5>
-            <div class="card-action">
-                <p>主动Buff技能，开启后直接增加转职后技能的技能攻击力（无需叠加层数），并可通过换装获取更高额的攻击力加成。</p>
-                <p>核心Buff技能，建议点1级，同时准备相应的Buff装备进行换装。</p>
+<div class="row">
+    <article class="col m10 s12 contents-bg">
+        <section id="Black-Mirror" class="section scrollspy">
+            <h3 class="section-h3">
+                <img class="skill-icon"
+                     src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0NGNTJBNDRGMUIyMTFFM0JENEY5Q0NCQjY3RkM5MkMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0NGNTJBNDNGMUIyMTFFM0JENEY5Q0NCQjY3RkM5MkMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDUyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAjQAAAgIDAAAAAAAAAAAAAAAABgcBBQIDBAEAAwEBAAAAAAAAAAAAAAAAAwQFAAIQAAAEBAMGBAUFAAAAAAAAAAECAwQREhMFABQGITFBUSIVYYEjFnGhQlIHwTKyM0MRAAEDAQUGBAcBAAAAAAAAAAEAEQIDITFBEgRhcYGRwRPhQhQF8FEiMmKCIxX/2gAMAwEAAhEDEQA/AEI9Zrs6KbxuBHKyCToqhuqoi4JUIoA8YzQHxAQwKlWjUfLgSDvC7nAxZ8Q6srdpVBzpx5e3SuVJODSypSxF07AwGV3Ab0yEASxHZMO+MMJanXGNUU4h2tlsCYpacGBkeG9U5USgcUzpFTXSjUA4bCmKHVGO/wAMUISEg4uSsokFiursd1o1csbJ5LuckRjlq1DMU4R/d1Q3ybcA9ZTdn82X9mf42ovYk3DNwRHrhke26M081clA7pRmi/tboB6yIu0p1EDcyzAJy8h8MTNFIy1MzG5yCN1xTVZuzF+HVM/Q2gC6yYNFXJiNrJZ0StGbVKMAmIVUT7Y9RwOUTG44h6jUmlIt90i5KbLMLNyW/wCRrParVq21kcBmUXUyr1IgiWogVcU28RDioBBAw8S4r+3VakqExGxrtha3kl9QIZ4k439ER9hvHvzu06dfsHfKH+OVrUcvLup0eiH64V7kfS5cO5l2u1+97UR/7P8Ail3e9QnvLOzIqGFU1taEanUEJSFBMJEiF5yEAZh5j4YuaTSmnOcsJSs6pGtVEoxAwCPtE/lW82LTLO1MAKo7WAGYoiWJgUTESJj8VEhJD4Yia324GrImyN/A38i6dpVQYxxNyBtaXI111M5UaLgug0SRZNXACIkMVmmUswD9oqgYY4s+20MtBpBjJyePgk9VUepZdGzl4qw9/L+4czXVyXa+2ZeUKuXhUy3L+z690u3Cv+fLs5G+rPm2b+WCN6iPczeXKhU9aUsktGHozxjDhGGyaHLFtT1DXucVclPPSPXozTUpRnjDbCWPlHAK3bsztfY/zRKee3KsEq/p0qcuyX7fCMdkPlg6GtnTD6c15U5Jv5R8pcZZf//ZLyogIHx4R3YwMHwyZDg0NmU1OTJlYmI1N2M4ZjdiYTRjZWJkMjcwZDNkMiAqLw=="
+                     width="28" height="28" alt="Black-Mirror icon">
+                魔镜幻影阵&nbsp;-&nbsp;
+                <small>
+                    Black&nbsp;Mirror
+                </small>
+            </h3>
+            <ul>
+                <li><span class="attr">学习等级</span>：Lv 35</li>
+                <li><span class="attr">所需SP</span>：40</li>
+                <li><span class="attr">最大可学等级</span>：Lv 28/Lv 31（达人契约）</li>
+                <li><span class="attr">精通等级</span>：Lv 50</li>
+                <li><span class="attr">掌握上限等级</span>：Lv 60</li>
+                <li><span class="attr">加点建议</span>：满级</li>
+                <li><span class="attr">技能消耗</span>：[无色小晶块]1个</li>
+                <li><span class="attr">施放时间</span>：0.7s</li>
+                <li><span class="attr">冷却时间</span>：15s</li>
+            </ul>
+            <h4 class="section-h4">技能描述</h4>
+            <p>在前方生成镜阵限制敌人的移动范围，并给予暗属性伤害。</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lv 1</th>
+                        <th>成长</th>
+                        <th>Lv 28</th>
+                        <th>Lv 28+Ex 5</th>
+                        <th>Lv 31</th>
+                        <th>Lv 31+Ex 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>镜阵生成魔法攻击力</th>
+                        <td>445%</td>
+                        <td>70.81%</td>
+                        <td>2357%</td>
+                        <td>3536%</td>
+                        <td>2569%</td>
+                        <td>3854%</td>
+                    </tr>
+                    <tr>
+                        <th>镜阵HP值</th>
+                        <td>6158</td>
+                        <td>—</td>
+                        <td>121087</td>
+                        <td>121087</td>
+                        <td>151660</td>
+                        <td>151660</td>
+                    </tr>
+                    <tr>
+                        <th>幻影魔法攻击力</th>
+                        <td>445%</td>
+                        <td>70.81%</td>
+                        <td>2357%</td>
+                        <td>3536%</td>
+                        <td>2569%</td>
+                        <td>3854%</td>
+                    </tr>
+                    <tr>
+                        <th>防护罩持续时间</th>
+                        <td>12s</td>
+                        <td>12s</td>
+                        <td>12s</td>
+                        <td>12s</td>
+                        <td>12s</td>
+                        <td>12s</td>
+                    </tr>
+                    <tr>
+                        <th>防护罩防御次数</th>
+                        <td>4次</td>
+                        <td>0.25次</td>
+                        <td>11次</td>
+                        <td>11次</td>
+                        <td>11次</td>
+                        <td>11次</td>
+                    </tr>
+                    <tr>
+                        <th>防护罩伤害吸收率</th>
+                        <td>50%</td>
+                        <td>50%</td>
+                        <td>50%</td>
+                        <td>50%</td>
+                        <td>50%</td>
+                        <td>50%</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-    </section>
-    <section id="Deadly-Cape" class="section scrollspy">
-        <h3 class="section-h3">
-            <img class="skill-icon"
-                 src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjVFOEFFNjZGMUIyMTFFMzgyREFCNjAwQTkxQTYxOUYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjVFOEFFNjVGMUIyMTFFMzgyREFCNjAwQTkxQTYxOUYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDcyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAjQABAQEBAAAAAAAAAAAAAAAABgcEBQEAAwADAAAAAAAAAAAAAAAAAwQFAAECEAABAgQEAgcFCQAAAAAAAAABAgMREgQFABMUBiExQVEiMiMVB2FxYiQWgZGh4UKissIXEQABAwEEBwgDAAAAAAAAAAABABECAyExEgRBUWFxgbET8KHB0SIyFAWRQiP/2gAMAwEAAhEDEQA/AAGytl7GuXpjuHdG411aKygq2aenepDMtOahqTwj2FzuuwVN0Yi53N1oZmNOmzGL28dPBOUacDB5a7/x5o7tfYVxvVQPlVuUC0vtU9S20spceQgyEQlI5zgHqPVhjNZ+MBYfVY4WUcs5c3WrlXywVFkqF0FyZIuDUE1CMtaW2VFE0CYeKuBHdMg+KOD0cwKtoPp5+XPchTpYL7SsWnam083gSTwiZZ5pZ/z/ABw2gKmehKKytrbhYVpbXaNwMaOpSCkuNvtIK2qhLRifDjxJgOnoxC+5MRhl+8LeGp09lAWOpUyj2reTeKuwUtUhw0dGpmsqH3kElsslLTCG4laGe0kkygud49AxFnXjhEiLzq22nfyT4OkqZXXa1yet79A8umeUgK0i1vJW62URCm50lwhMDMBEykEcjipSzMRISD7bEOdEmLFkA8nuvm/lkaXVZMJs9nKlm64/thGGLXyo4MVrbipvQliw2PvVN9MXntrelW4t+UjRXc11DVuYeCQosU4KEuL4g81K4+4Yj/Y/2zMKJ9rPvNqPQaNMyWjam8KS6urQ84pLQpX0iCvmKVLoILTRKkmop+1MGzxRyCusGZypgOI3HfqO3Sm6VQSu7eY5IZuC8uUTFe1SPs16K0IaVdGoiDQPabQ2SFNBUVJM6YqHKAhh+hRxEOCG0dr+CXq1GBa19KGZCppZTmZU/M85o/d0e7FhrGU9042R/rXkN0+kJvpqKtfnabT9wTRz+E0kJ5eHXiVnvi9QdX36Gd+5N5fqt6btreKJUXnuvf0GVqsp3N0uRl5chzIZPh92MMNz6eEYnZxe/ihxx4i3cy5wjMiMPgzJv74ZDIBdauxJ+jUQ9mXlzfyj9kuOlpf/2S8qICB8eEd2MDB8ZDc1ODEwOGVkOTIxOGEwOTU0ODUwOGQ0OTg5YmJjZGUgKi8="
-                 width="28" height="28" alt="Deadly-Cape icon">
-            暗影囚杀&nbsp;-&nbsp;
-            <small>
-                Deadly&nbsp;Cape
-            </small>
-        </h3>
-        <ul>
-            <li><span class="attr">学习等级</span>：Lv 40</li>
-            <li><span class="attr">所需SP</span>：50</li>
-            <li><span class="attr">最大可学等级</span>：Lv 26/Lv 28（达人契约）</li>
-            <li><span class="attr">精通等级</span>：Lv 50</li>
-            <li><span class="attr">掌握上限等级</span>：Lv 60</li>
-            <li><span class="attr">加点建议</span>：1级</li>
-            <li><span class="attr">技能消耗</span>：[无色小晶块]1个</li>
-            <li><span class="attr">施放时间</span>：0.3s</li>
-            <li><span class="attr">冷却时间</span>：20s</li>
-        </ul>
-        <h4 class="section-h4">技能描述</h4>
-        <p>抛出死亡斗篷将敌人禁锢，并给予其暗属性多段伤害。</p>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Lv 1</th>
-                    <th>成长</th>
-                    <th>Lv 26</th>
-                    <th>Lv 26+Ex 5</th>
-                    <th>Lv 28</th>
-                    <th>Lv 28+Ex 5</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>多段攻击次数</th>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                </tr>
-                <tr>
-                    <th>多段攻击攻击力</th>
-                    <td>184%</td>
-                    <td>18.60%</td>
-                    <td>649%</td>
-                    <td>974%</td>
-                    <td>686%</td>
-                    <td>1029%</td>
-                </tr>
-                <tr>
-                    <th>终结一击攻击力</th>
-                    <td>5571%</td>
-                    <td>564.60%</td>
-                    <td>19686%</td>
-                    <td>29529%</td>
-                    <td>20815%</td>
-                    <td>31223%</td>
-                </tr>
-                <tr>
-                    <th>释魂飞弹冷却时间减少率</th>
-                    <td>10%</td>
-                    <td>约2.61%</td>
-                    <td>75%</td>
-                    <td>75%</td>
-                    <td>80%</td>
-                    <td>80%</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
 
-        <h4 class="section-h4">技能说明</h4>
-        <ul class="browser-default">
-            <li>斗篷抛出时产生抓取判定，并具有聚拢效果，能够将攻击范围内的目标聚集后禁锢在斗篷内（对建筑/装置类怪物，无法将其禁锢在斗篷内，但依旧在原地生成斗篷）。
-                斗篷的抓取判定若没能命中合适的目标，则不会生成斗篷，角色也不会进行后续的多段攻击。
-            </li>
-            <li>斗篷的抓取判定仅具有攻击判定，而不具有伤害判定；可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，攻击结果为多属性。</li>
-            <li>斗篷对被禁锢在其中的敌人具有<strong>控制效果(Superhold)</strong>，终结一击结束后控制效果结束。对建筑/装置类怪物，因无法将其禁锢在斗篷内，因此也不会产生控制效果。
-            </li>
-            <li>多段攻击过程中，人物处于霸体而非无敌状态，且多段攻击速度与人物的攻击速度相关。多段攻击对于斗篷外部的敌人也能够造成伤害，但不会将其斩进斗篷内。</li>
-            <li>多段攻击过程中，若输入跳跃键，则可以中止多段攻击并立即施放终结一击，但需要在第一次多段攻击结束后才能够提前施放终结一击。</li>
-            <li>多段攻击可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准；终结一击为暗属性，无法继承其他属性。</li>
-            <li>技能持续时间内，<span class="skill">释魂飞弹</span>的冷却时间会大幅减少。但由于飞弹在命中全部目标后才能再次发射，故依靠<span
-                    class="skill">暗影囚杀</span>减少<span class="skill">释魂飞弹</span>的冷却时间存在一个阈值。
-                一般而言，在施放<span class="skill">暗影囚杀</span>的状态下，此阈值约为1.3秒，低于该阈值则减少部分无实际意义。
-            </li>
-            <li>若敌人在<span class="skill">暗影囚杀</span>的控制状态下死亡，则尸体会保留至控制时间结束后消失。</li>
-        </ul>
-        <h4 class="section-h4">异界加持</h4>
-        <dl>
-            <dt class="degenerator-3">3期勇者 - [冥域女神] 套装</dt>
-            <dd><span>[6]</span>&nbsp;-&nbsp;件套效果 CD-25% 多段攻击次数+35%</dd>
-            <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 多段攻击次数+40%</dd>
-        </dl>
-        <div class="border-purple">
-            <h5>技能点评</h5>
-            <p>具备聚拢效果的范围性控制技能，输出能力与其他高阶技能相比存在一定差距，且因总输出时间较长而技能形态欠佳。</p>
-            <p>更多情况下是作为控制技能而非输出技能出场，同时也会作为<span class="skill">释魂飞弹</span>快速倾泻灵魂进行输出的媒介，但同样存在技能形态方面的问题。
-            </p>
-            <p>作为控制技能因技能CD较长而使用率显著低于几个低阶技能，且由于终结一击后存在一定后摇，需要其他技能进行衔接，抑或是用于收尾。</p>
-            <p>功能性技能，非<span class="item">黑暗契约</span>向加点建议点1级即可。</p>
-        </div>
-    </section>
-    <section id="Destroyer" class="section scrollspy">
-        <h3 class="section-h3">
-            <img class="skill-icon"
-                 src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDdBMTI2QkJGMUIzMTFFM0E0MEJBQjZCMkJBMjhBNDEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDdBMTI2QkFGMUIzMTFFM0E0MEJBQjZCMkJBMjhBNDEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDgyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAigAAAgEFAAAAAAAAAAAAAAAABAUGAQIDBwgBAAIDAQAAAAAAAAAAAAAAAAMEAAIFBhAAAAUDAwMDAgcAAAAAAAAAARECAwQSEwUAIQYxURRBIhYyI3GBkaHhYoMRAAEDAwEGBQIHAAAAAAAAAAEAEQIhEgMx8EFRcRMEYYGRoRSxMsHxIkKSBRX/2gAMAwEAAhEDEQA/AOfm2nJK2GmWL0qSttltI0m468oEp9yiABFQ9RHVZzEImR0FVaMTIgDUoyRxuRAzMrDZtxrEPxkSVKekpcShao7QrbBsRQkVg4tIACkhuHQzABT+aJYxPGL3MaBnDnftzRh27TMZFqFLowxnqBGjcKi2EO5KFI6eS6v2u2drVFdsvbUZmR9vXqWoojY+L+7jW86iRi8TkUihjILjqUgQAEqF4G10C60gzUKO5gO26eXuaHpNOcdYv7PuKPDFpe8Qd+25SzEtAHLXePzeQ5mZi8c8pnITwnDj4jLDDlt1akuLlDSYUpCpBjsGsfM3SGUY8cZT+0W3SL/x+hT0CbjC6Zt1qwH1/BBc84lIxmRkZZyO3jMQ7ZcxMSRMROkLbUtCAERBbytkm6sR9gbJAR66a/re9jICH3Tc3G20D2HLjvZB7nAay0G6r7cVD/Kj3q7oW6KajSR1H2LruWtpIJm5ns4vEswX5a5mPQlFuFMBMplBJpAGQfBYte3b7ak9gLSkuyxXXgWz4inq2vm6PHuJgMS8fGq2S/xHiY4LiPJsSuJjuFDJQ5nIE58WZC5Ud0UOrUDinr6UghQIaPvSdYlz3yMonkxzulnZokB2B5Nbz9dFoCMSImLCDvXYvy9NVEeXcaxkae1meOZFXI48xx+bKyrSHTbU4tKmo7rTS/IaWglCK1UnUHbWj2fcEg4so6TAADi2pDhi/CuiXy4/3x/VUkn8i6B+eZ75D8iqh+dYt1+E3boukdoqq/7/AFflpn/LxdHpPK1312p4aIfzJ330dJl+RZRTR4xDar+qkxKotz/bWklEOvzKYvkVFZDwb9ZWTUVmrak6jo9TPfQsdjm1nevPxV53UfyVHaa0X/Gq2K4R0lt13L8NFVFk91Pr5FP+dkv1/jUUX//ZLyogIHx4R3YwMHwxMzc0NDk5ZDIyN2Y3YWZiMjY2NDI2NWFjZTNmMWNkOSAqLw=="
-                 width="28" height="28" alt="Destroyer icon">
-            暗影盛宴&nbsp;-&nbsp;
-            <small>
-                Destroyer
-            </small>
-        </h3>
-        <ul>
-            <li><span class="attr">学习等级</span>：Lv 45</li>
-            <li><span class="attr">所需SP</span>：60</li>
-            <li><span class="attr">最大可学等级</span>：Lv 23/Lv 26（达人契约）</li>
-            <li><span class="attr">精通等级</span>：Lv 50</li>
-            <li><span class="attr">掌握上限等级</span>：Lv 60</li>
-            <li><span class="attr">加点建议</span>：满级</li>
-            <li><span class="attr">技能消耗</span>：[无色小晶块]2个</li>
-            <li><span class="attr">施放时间</span>：0.3s</li>
-            <li><span class="attr">冷却时间</span>：40s</li>
-        </ul>
-        <h4 class="section-h4">技能描述</h4>
-        <p>高高跃起后，向地面发射暗属性剑气。</p>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Lv 1</th>
-                    <th>成长</th>
-                    <th>Lv 23</th>
-                    <th>Lv 23+Ex 5</th>
-                    <th>Lv 26</th>
-                    <th>Lv 26+Ex 5</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>多段攻击次数</th>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                    <td>14次</td>
-                </tr>
-                <tr>
-                    <th>剑气发射次数</th>
-                    <td>15次</td>
-                    <td>15次</td>
-                    <td>15次</td>
-                    <td>15次</td>
-                    <td>15次</td>
-                    <td>15次</td>
-                </tr>
-                <tr>
-                    <th>命中目标时额外汲取灵魂数</th>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                    <td>15个</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+            <h4 class="section-h4">技能说明</h4>
+            <ul class="browser-default">
+                <li>
+                    镜阵生成时会升起多面镜片，镜片接触到敌人时产生攻击判定，同时对可移动敌人造成强制位移，将敌人聚拢至镜阵中心/隔离至镜阵周围。
+                    <br>
+                    镜阵的生成攻击次数最多约为10次（待确认），实际命中次数与镜阵的生成位置以及敌人的体型有关，一般可命中5~7次。
+                </li>
+                <li>
+                    镜阵生成后，会限制敌人的移动范围，镜阵周围的敌人无法再进入镜阵，镜阵中心的敌人也无法离开镜阵
+                    <br>
+                    （注：<span class="monster">巡视者梅尔塔</span>被聚拢至镜阵中心后，镜阵消失前无法跳出镜阵，相关场合请慎用）。
+                    <br>
+                    同时，镜片中寄宿的幻影会在相对的镜片间先后弹射并发动2次攻击，对敌人造成伤害，对自身和队友赋予防护罩。
+                    <br>
+                    幻影的攻击次数最多约为10次*2（待确认），实际命中次数与敌人Y轴方向上的体型有关，一般可命中5~7次。
+                    <br>
+                    幻影攻击具有一定的Z轴范围限制，对于贴近地面的目标无法命中。
+                </li>
+                <li>
+                    镜阵具有HP值和物体性质。
+                    <br>
+                    镜阵的HP值与技能等级大致呈二次函数的关系。若镜阵的HP值归零，则会提前消失。
+                    <br>
+                    镜阵的物体性质可以为镜阵内的友军阻挡非穿透性伤害，或是作为物体单位承担部分效果，如<span class="monster">恐怖邪念体</span>的黑色火焰、<span
+                        class="monster">崩溃的哈布</span>的火焰帷幕等。
+                </li>
+                <li>
+                    幻影赋予防护罩的过程具有攻击判定，会对自身和队友造成被击判定，因此可以用于触发多种效果。
+                    <br>
+                    攻击判定：可以用于触发<span class="item">荒古遗尘</span>系列武器积攒魔能的效果，以及<span class="skill">汲魂之力</span>汲取灵魂的效果等（视为“自身”攻击“自身和队友”）。
+                    <br>
+                    被击判定：可以用于触发“被攻击时”类型的装备特效，如<span class="item">霸域英豪</span>套装等（视为“自身和队友”被攻击）。
+                </li>
+                <li>幻影赋予的防护罩在持续时间和防御次数内具有吸收伤害的效果，且能够使角色在被攻击时不会进入僵直状态，但无法防御抓取效果。</li>
+            </ul>
+            <h4 class="section-h4">异界加持</h4>
+            <dl>
+                <dt class="degenerator-3">3期勇者 - [暗幕之王] 套装</dt>
+                <dd><span>[6]</span>&nbsp;-&nbsp;件套效果 CD-20% 防护罩防御次数+1 防护罩伤害吸收率+5%</dd>
+                <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 CD-25% 防护罩防御次数+1 防护罩伤害吸收率+5%</dd>
+            </dl>
+            <div class="border-purple">
+                <h5>技能点评</h5>
+                <p>核心的输出型技能之一。输出很高的大范围AOE技能，同时具备与其输出不相匹配的较短CD以及众多功能性效果，俗称<strong>“镜子”</strong>。</p>
+                <p>作为低阶的无色技能，镜子的输出却不亚于部分高阶无色技能，并且具有范围大、CD短、可脱手等优点。</p>
+                <p>同时也可谓是众多技能中功能性最为全面的技能之一，具体功能在[技能说明]中已详细介绍。</p>
+                <p>核心输出型技能，建议SP&TP双满。</p>
+            </div>
+        </section>
+        <section id="Liberate-madness" class="section scrollspy">
+            <h3 class="section-h3">
+                <img class="skill-icon"
+                     src="data:image/jpeg;base64,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"
+                     width="28" height="28" alt="Liberate-madness icon">
+                释魂狂怒&nbsp;-&nbsp;
+                <small>
+                    Liberate&nbsp;madness
+                </small>
+            </h3>
+            <ul>
+                <li><span class="attr">学习等级</span>：Lv 35</li>
+                <li><span class="attr">所需SP</span>：30</li>
+                <li><span class="attr">最大可学等级</span>：Lv 28/Lv 31（达人契约）</li>
+                <li><span class="attr">精通等级</span>：Lv 50</li>
+                <li><span class="attr">掌握上限等级</span>：Lv 60</li>
+                <li><span class="attr">加点建议</span>：1级/满级</li>
+                <li><span class="attr">施放时间</span>：0.3s</li>
+                <li><span class="attr">冷却时间</span>：15s</li>
+            </ul>
+            <h4 class="section-h4">技能描述</h4>
+            <p>生成魔法阵后浮空敌人，然后发射灵魂，对魔法阵内的敌人造成伤害。</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lv 1</th>
+                        <th>成长</th>
+                        <th>Lv 28</th>
+                        <th>Lv 28+Ex 5</th>
+                        <th>Lv 31</th>
+                        <th>Lv 31+Ex 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>魔法阵范围</th>
+                        <td>300px</td>
+                        <td>300px</td>
+                        <td>300px</td>
+                        <td>300px</td>
+                        <td>300px</td>
+                        <td>300px</td>
+                    </tr>
+                    <tr>
+                        <th>爆炸魔法攻击力</th>
+                        <td>8800%</td>
+                        <td>892.31%</td>
+                        <td>32900%</td>
+                        <td>49350%</td>
+                        <td>35570%</td>
+                        <td>53355%</td>
+                    </tr>
+                    <tr>
+                        <th>消耗灵魂个数</th>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                    </tr>
+                    <tr>
+                        <th>命中目标时额外汲取灵魂数</th>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
 
-        <h4 class="section-h4">技能说明</h4>
-        <ul class="browser-default">
-            <li>剑气发射速度与人物的攻击速度相关。</li>
-            <li>剑气攻击的实际范围为不同位置的所有剑气攻击范围的总和，敌人是否承受某一次剑气的攻击与画面效果无关，只要位于实际范围内则会承受所有剑气攻击。</li>
-            <li>剑气攻击可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准。</li>
-            <li>剑气攻击结束后，若成功命中目标，则可以额外汲取15个灵魂，额外汲取量与命中目标个数无关；额外汲取灵魂的功能与技能本身触发<span class="skill">汲魂之力</span>汲取灵魂效果的功能不冲突。
-            </li>
-        </ul>
-        <h4 class="section-h4">异界加持</h4>
-        <dl>
-            <dt class="degenerator-3">3期勇者 - [冥域女神] 套装</dt>
-            <dd><span>[3]</span>&nbsp;-&nbsp;件套效果 攻击力+20%</dd>
-            <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 CD-30% 剑气集中度+40% 剑气发射次数+40%</dd>
-        </dl>
-        <div class="border-purple">
-            <h5>技能点评</h5>
-            <p>转职后最强的输出技能之一，输出极高的大范围AOE技能。具有溅射效果的印记爆炸攻击删除后，技能本身的严重卡顿现象也不复存在。</p>
-            <p>极高的输出能力使此技能成为暗帝的成名技，经过优化改版后也可以不再拘泥于角色站位而轻松达到输出最大化的效果。</p>
-            <p>核心输出型技能，建议SP&TP双满。</p>
+            <h4 class="section-h4">技能说明</h4>
+            <ul class="browser-default">
+                <li>此技能无法享受<span class="skill">薄暮</span>的技能伤害加成效果。</li>
+                <li><span class="skill">释魂狂怒</span>为无属性技能，可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准。
+                </li>
+                <li>魔法阵生成时，对范围内的敌人具有<strong>控制效果(Superhold)</strong>。位于魔法阵内的敌人会立即进入控制状态并强制浮空（除建筑/装置型敌人外），爆炸攻击结束后控制效果结束。
+                </li>
+                <li>消耗灵魂个数与魔法阵内敌人的个数无关，为固定值。学习<span class="skill">薄暮</span>后，消耗灵魂个数会减少，并直接体现在技能数据中。</li>
+                <li>魔法阵攻击结束后，若成功命中目标，则可以额外汲取15个灵魂，额外汲取量与命中目标个数无关；额外汲取灵魂的功能与技能本身触发<span class="skill">汲魂之力</span>汲取灵魂效果的功能不冲突。
+                </li>
+                <li>若敌人在<span class="skill">释魂狂怒</span>的控制状态下死亡，则尸体会保留至控制时间结束后消失。</li>
+            </ul>
+            <div class="border-purple">
+                <h5>技能点评</h5>
+                <p>具备出色输出的范围性控制技能，同时能够提供额外的灵魂汲取效果。爆炸攻击的溅射效果删除后，技能本身的严重卡顿现象也不复存在。</p>
+                <p>虽然能够提供的控制时间较短，但由于出色的强制控制&滞空效果，使其成为控制技能间衔接的主力，并能够提供一定的输出。</p>
+                <p>由于是转职后技能中唯一的无属性技能，因此需要通过装备、附魔、药剂、晶体契约等手段为其赋予暗属性（<span class="item">暗黑倾向药剂</span>、<span
+                        class="item">幽魂魅影</span>套装、<span class="item">荒古遗尘</span>系列武器等）。</p>
+                <p>核心功能性技能&输出型技能，建议根据个人习惯选择学习1级/满级。</p>
+            </div>
+        </section>
+        <section id="Congest" class="section scrollspy">
+            <h3 class="section-h3">
+                <img class="skill-icon"
+                     src="data:image/jpeg;base64,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"
+                     width="28" height="28" alt="Congest icon">
+                暗影蓄能&nbsp;-&nbsp;
+                <small>
+                    Congest
+                </small>
+            </h3>
+            <ul>
+                <li><span class="attr">学习等级</span>：Lv 35</li>
+                <li><span class="attr">所需SP</span>：100</li>
+                <li><span class="attr">最大可学等级</span>：Lv 1（精通）</li>
+                <li><span class="attr">精通等级</span>：Lv 1</li>
+                <li><span class="attr">掌握上限等级</span>：Lv 11</li>
+                <li><span class="attr">加点建议</span>：1级</li>
+                <li><span class="attr">施放时间</span>：0.5s</li>
+                <li><span class="attr">冷却时间</span>：5s</li>
+            </ul>
+            <h4 class="section-h4">技能描述</h4>
+            <p>积蓄能量，增加技能攻击力。</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lv 1</th>
+                        <th>成长</th>
+                        <th>Lv 11</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>技能攻击力增加率</th>
+                        <td>15%</td>
+                        <td>2%</td>
+                        <td>35%</td>
+                    </tr>
+                    <tr>
+                        <th>持续时间</th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4 class="section-h4">技能说明</h4>
+            <ul class="browser-default">
+                <li>开启<span class="skill">暗影蓄能</span>Buff后，增加转职后技能（除<span class="skill">影刃</span>外）的技能攻击力；技能攻击力增加率于开启时锁定，切换装备后依旧保持。
+                </li>
+                <li>
+                    堆砌<span class="skill">暗影蓄能</span>技能等级的方法请查阅《第二章：Buff堆砌》
+                    <p>
+                        <a ui-sref="novice.2" class="waves-effect waves-purple btn-flat">
+                            点击查看《第二章：Buff堆砌》
+                        </a>
+                    </p>
+                </li>
+            </ul>
+            <div class="border-purple">
+                <h5>技能点评</h5>
+                <div class="card-action">
+                    <p>主动Buff技能，开启后直接增加转职后技能的技能攻击力（无需叠加层数），并可通过换装获取更高额的攻击力加成。</p>
+                    <p>核心Buff技能，建议点1级，同时准备相应的Buff装备进行换装。</p>
+                </div>
+            </div>
+        </section>
+        <section id="Deadly-Cape" class="section scrollspy">
+            <h3 class="section-h3">
+                <img class="skill-icon"
+                     src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjVFOEFFNjZGMUIyMTFFMzgyREFCNjAwQTkxQTYxOUYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjVFOEFFNjVGMUIyMTFFMzgyREFCNjAwQTkxQTYxOUYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDcyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAjQABAQEBAAAAAAAAAAAAAAAABgcEBQEAAwADAAAAAAAAAAAAAAAAAwQFAAECEAABAgQEAgcFCQAAAAAAAAABAgMREgQFABMUBiExQVEiMiMVB2FxYiQWgZGh4UKissIXEQABAwEEBwgDAAAAAAAAAAABABECAyExEgRBUWFxgbET8KHB0SIyFAWRQiP/2gAMAwEAAhEDEQA/AAGytl7GuXpjuHdG411aKygq2aenepDMtOahqTwj2FzuuwVN0Yi53N1oZmNOmzGL28dPBOUacDB5a7/x5o7tfYVxvVQPlVuUC0vtU9S20spceQgyEQlI5zgHqPVhjNZ+MBYfVY4WUcs5c3WrlXywVFkqF0FyZIuDUE1CMtaW2VFE0CYeKuBHdMg+KOD0cwKtoPp5+XPchTpYL7SsWnam083gSTwiZZ5pZ/z/ABw2gKmehKKytrbhYVpbXaNwMaOpSCkuNvtIK2qhLRifDjxJgOnoxC+5MRhl+8LeGp09lAWOpUyj2reTeKuwUtUhw0dGpmsqH3kElsslLTCG4laGe0kkygud49AxFnXjhEiLzq22nfyT4OkqZXXa1yet79A8umeUgK0i1vJW62URCm50lwhMDMBEykEcjipSzMRISD7bEOdEmLFkA8nuvm/lkaXVZMJs9nKlm64/thGGLXyo4MVrbipvQliw2PvVN9MXntrelW4t+UjRXc11DVuYeCQosU4KEuL4g81K4+4Yj/Y/2zMKJ9rPvNqPQaNMyWjam8KS6urQ84pLQpX0iCvmKVLoILTRKkmop+1MGzxRyCusGZypgOI3HfqO3Sm6VQSu7eY5IZuC8uUTFe1SPs16K0IaVdGoiDQPabQ2SFNBUVJM6YqHKAhh+hRxEOCG0dr+CXq1GBa19KGZCppZTmZU/M85o/d0e7FhrGU9042R/rXkN0+kJvpqKtfnabT9wTRz+E0kJ5eHXiVnvi9QdX36Gd+5N5fqt6btreKJUXnuvf0GVqsp3N0uRl5chzIZPh92MMNz6eEYnZxe/ihxx4i3cy5wjMiMPgzJv74ZDIBdauxJ+jUQ9mXlzfyj9kuOlpf/2S8qICB8eEd2MDB8ZDc1ODEwOGVkOTIxOGEwOTU0ODUwOGQ0OTg5YmJjZGUgKi8="
+                     width="28" height="28" alt="Deadly-Cape icon">
+                暗影囚杀&nbsp;-&nbsp;
+                <small>
+                    Deadly&nbsp;Cape
+                </small>
+            </h3>
+            <ul>
+                <li><span class="attr">学习等级</span>：Lv 40</li>
+                <li><span class="attr">所需SP</span>：50</li>
+                <li><span class="attr">最大可学等级</span>：Lv 26/Lv 28（达人契约）</li>
+                <li><span class="attr">精通等级</span>：Lv 50</li>
+                <li><span class="attr">掌握上限等级</span>：Lv 60</li>
+                <li><span class="attr">加点建议</span>：1级</li>
+                <li><span class="attr">技能消耗</span>：[无色小晶块]1个</li>
+                <li><span class="attr">施放时间</span>：0.3s</li>
+                <li><span class="attr">冷却时间</span>：20s</li>
+            </ul>
+            <h4 class="section-h4">技能描述</h4>
+            <p>抛出死亡斗篷将敌人禁锢，并给予其暗属性多段伤害。</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lv 1</th>
+                        <th>成长</th>
+                        <th>Lv 26</th>
+                        <th>Lv 26+Ex 5</th>
+                        <th>Lv 28</th>
+                        <th>Lv 28+Ex 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>多段攻击次数</th>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                    </tr>
+                    <tr>
+                        <th>多段攻击攻击力</th>
+                        <td>184%</td>
+                        <td>18.60%</td>
+                        <td>649%</td>
+                        <td>974%</td>
+                        <td>686%</td>
+                        <td>1029%</td>
+                    </tr>
+                    <tr>
+                        <th>终结一击攻击力</th>
+                        <td>5571%</td>
+                        <td>564.60%</td>
+                        <td>19686%</td>
+                        <td>29529%</td>
+                        <td>20815%</td>
+                        <td>31223%</td>
+                    </tr>
+                    <tr>
+                        <th>释魂飞弹冷却时间减少率</th>
+                        <td>10%</td>
+                        <td>约2.61%</td>
+                        <td>75%</td>
+                        <td>75%</td>
+                        <td>80%</td>
+                        <td>80%</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4 class="section-h4">技能说明</h4>
+            <ul class="browser-default">
+                <li>斗篷抛出时产生抓取判定，并具有聚拢效果，能够将攻击范围内的目标聚集后禁锢在斗篷内（对建筑/装置类怪物，无法将其禁锢在斗篷内，但依旧在原地生成斗篷）。
+                    斗篷的抓取判定若没能命中合适的目标，则不会生成斗篷，角色也不会进行后续的多段攻击。
+                </li>
+                <li>斗篷的抓取判定仅具有攻击判定，而不具有伤害判定；可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，攻击结果为多属性。</li>
+                <li>斗篷对被禁锢在其中的敌人具有<strong>控制效果(Superhold)</strong>，终结一击结束后控制效果结束。对建筑/装置类怪物，因无法将其禁锢在斗篷内，因此也不会产生控制效果。
+                </li>
+                <li>多段攻击过程中，人物处于霸体而非无敌状态，且多段攻击速度与人物的攻击速度相关。多段攻击对于斗篷外部的敌人也能够造成伤害，但不会将其斩进斗篷内。</li>
+                <li>多段攻击过程中，若输入跳跃键，则可以中止多段攻击并立即施放终结一击，但需要在第一次多段攻击结束后才能够提前施放终结一击。</li>
+                <li>多段攻击可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准；终结一击为暗属性，无法继承其他属性。</li>
+                <li>技能持续时间内，<span class="skill">释魂飞弹</span>的冷却时间会大幅减少。但由于飞弹在命中全部目标后才能再次发射，故依靠<span
+                        class="skill">暗影囚杀</span>减少<span class="skill">释魂飞弹</span>的冷却时间存在一个阈值。
+                    一般而言，在施放<span class="skill">暗影囚杀</span>的状态下，此阈值约为1.3秒，低于该阈值则减少部分无实际意义。
+                </li>
+                <li>若敌人在<span class="skill">暗影囚杀</span>的控制状态下死亡，则尸体会保留至控制时间结束后消失。</li>
+            </ul>
+            <h4 class="section-h4">异界加持</h4>
+            <dl>
+                <dt class="degenerator-3">3期勇者 - [冥域女神] 套装</dt>
+                <dd><span>[6]</span>&nbsp;-&nbsp;件套效果 CD-25% 多段攻击次数+35%</dd>
+                <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 多段攻击次数+40%</dd>
+            </dl>
+            <div class="border-purple">
+                <h5>技能点评</h5>
+                <p>具备聚拢效果的范围性控制技能，输出能力与其他高阶技能相比存在一定差距，且因总输出时间较长而技能形态欠佳。</p>
+                <p>更多情况下是作为控制技能而非输出技能出场，同时也会作为<span class="skill">释魂飞弹</span>快速倾泻灵魂进行输出的媒介，但同样存在技能形态方面的问题。
+                </p>
+                <p>作为控制技能因技能CD较长而使用率显著低于几个低阶技能，且由于终结一击后存在一定后摇，需要其他技能进行衔接，抑或是用于收尾。</p>
+                <p>功能性技能，非<span class="item">黑暗契约</span>向加点建议点1级即可。</p>
+            </div>
+        </section>
+        <section id="Destroyer" class="section scrollspy">
+            <h3 class="section-h3">
+                <img class="skill-icon"
+                     src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDdBMTI2QkJGMUIzMTFFM0E0MEJBQjZCMkJBMjhBNDEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDdBMTI2QkFGMUIzMTFFM0E0MEJBQjZCMkJBMjhBNDEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDgyNkZEQThCMkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEYwMjMyMzhBRkYxRTMxMUIwMjJCODI5MTBBNTQzMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAcABwDAREAAhEBAxEB/8QAigAAAgEFAAAAAAAAAAAAAAAABAUGAQIDBwgBAAIDAQAAAAAAAAAAAAAAAAMEAAIFBhAAAAUDAwMDAgcAAAAAAAAAARECAwQSEwUAIQYxURRBIhYyI3GBkaHhYoMRAAEDAwEGBQIHAAAAAAAAAAEAEQIhEgMx8EFRcRMEYYGRoRSxMsHxIkKSBRX/2gAMAwEAAhEDEQA/AOfm2nJK2GmWL0qSttltI0m468oEp9yiABFQ9RHVZzEImR0FVaMTIgDUoyRxuRAzMrDZtxrEPxkSVKekpcShao7QrbBsRQkVg4tIACkhuHQzABT+aJYxPGL3MaBnDnftzRh27TMZFqFLowxnqBGjcKi2EO5KFI6eS6v2u2drVFdsvbUZmR9vXqWoojY+L+7jW86iRi8TkUihjILjqUgQAEqF4G10C60gzUKO5gO26eXuaHpNOcdYv7PuKPDFpe8Qd+25SzEtAHLXePzeQ5mZi8c8pnITwnDj4jLDDlt1akuLlDSYUpCpBjsGsfM3SGUY8cZT+0W3SL/x+hT0CbjC6Zt1qwH1/BBc84lIxmRkZZyO3jMQ7ZcxMSRMROkLbUtCAERBbytkm6sR9gbJAR66a/re9jICH3Tc3G20D2HLjvZB7nAay0G6r7cVD/Kj3q7oW6KajSR1H2LruWtpIJm5ns4vEswX5a5mPQlFuFMBMplBJpAGQfBYte3b7ak9gLSkuyxXXgWz4inq2vm6PHuJgMS8fGq2S/xHiY4LiPJsSuJjuFDJQ5nIE58WZC5Ud0UOrUDinr6UghQIaPvSdYlz3yMonkxzulnZokB2B5Nbz9dFoCMSImLCDvXYvy9NVEeXcaxkae1meOZFXI48xx+bKyrSHTbU4tKmo7rTS/IaWglCK1UnUHbWj2fcEg4so6TAADi2pDhi/CuiXy4/3x/VUkn8i6B+eZ75D8iqh+dYt1+E3boukdoqq/7/AFflpn/LxdHpPK1312p4aIfzJ330dJl+RZRTR4xDar+qkxKotz/bWklEOvzKYvkVFZDwb9ZWTUVmrak6jo9TPfQsdjm1nevPxV53UfyVHaa0X/Gq2K4R0lt13L8NFVFk91Pr5FP+dkv1/jUUX//ZLyogIHx4R3YwMHwxMzc0NDk5ZDIyN2Y3YWZiMjY2NDI2NWFjZTNmMWNkOSAqLw=="
+                     width="28" height="28" alt="Destroyer icon">
+                暗影盛宴&nbsp;-&nbsp;
+                <small>
+                    Destroyer
+                </small>
+            </h3>
+            <ul>
+                <li><span class="attr">学习等级</span>：Lv 45</li>
+                <li><span class="attr">所需SP</span>：60</li>
+                <li><span class="attr">最大可学等级</span>：Lv 23/Lv 26（达人契约）</li>
+                <li><span class="attr">精通等级</span>：Lv 50</li>
+                <li><span class="attr">掌握上限等级</span>：Lv 60</li>
+                <li><span class="attr">加点建议</span>：满级</li>
+                <li><span class="attr">技能消耗</span>：[无色小晶块]2个</li>
+                <li><span class="attr">施放时间</span>：0.3s</li>
+                <li><span class="attr">冷却时间</span>：40s</li>
+            </ul>
+            <h4 class="section-h4">技能描述</h4>
+            <p>高高跃起后，向地面发射暗属性剑气。</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lv 1</th>
+                        <th>成长</th>
+                        <th>Lv 23</th>
+                        <th>Lv 23+Ex 5</th>
+                        <th>Lv 26</th>
+                        <th>Lv 26+Ex 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>多段攻击次数</th>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                        <td>14次</td>
+                    </tr>
+                    <tr>
+                        <th>剑气发射次数</th>
+                        <td>15次</td>
+                        <td>15次</td>
+                        <td>15次</td>
+                        <td>15次</td>
+                        <td>15次</td>
+                        <td>15次</td>
+                    </tr>
+                    <tr>
+                        <th>命中目标时额外汲取灵魂数</th>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                        <td>15个</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4 class="section-h4">技能说明</h4>
+            <ul class="browser-default">
+                <li>剑气发射速度与人物的攻击速度相关。</li>
+                <li>剑气攻击的实际范围为不同位置的所有剑气攻击范围的总和，敌人是否承受某一次剑气的攻击与画面效果无关，只要位于实际范围内则会承受所有剑气攻击。</li>
+                <li>剑气攻击可以继承装备、附魔、药剂、晶体契约等赋予的攻击属性，伤害结果为多属性，伤害数值以几种属性中计算结果较高者为准。</li>
+                <li>剑气攻击结束后，若成功命中目标，则可以额外汲取15个灵魂，额外汲取量与命中目标个数无关；额外汲取灵魂的功能与技能本身触发<span class="skill">汲魂之力</span>汲取灵魂效果的功能不冲突。
+                </li>
+            </ul>
+            <h4 class="section-h4">异界加持</h4>
+            <dl>
+                <dt class="degenerator-3">3期勇者 - [冥域女神] 套装</dt>
+                <dd><span>[3]</span>&nbsp;-&nbsp;件套效果 攻击力+20%</dd>
+                <dd><span>[9]</span>&nbsp;-&nbsp;件套效果 CD-30% 剑气集中度+40% 剑气发射次数+40%</dd>
+            </dl>
+            <div class="border-purple">
+                <h5>技能点评</h5>
+                <p>转职后最强的输出技能之一，输出极高的大范围AOE技能。具有溅射效果的印记爆炸攻击删除后，技能本身的严重卡顿现象也不复存在。</p>
+                <p>极高的输出能力使此技能成为暗帝的成名技，经过优化改版后也可以不再拘泥于角色站位而轻松达到输出最大化的效果。</p>
+                <p>核心输出型技能，建议SP&TP双满。</p>
+            </div>
+        </section>
+    </article>
+    <aside class="col m2 hide-on-small-and-down">
+        <div class="target">
+            <ul class="section table-of-contents">
+                <li><a href="#Black-Mirror">魔镜幻影阵</a></li>
+                <li><a href="#Liberate-madness">释魂狂怒</a></li>
+                <li><a href="#Congest">暗影蓄能</a></li>
+                <li><a href="#Deadly-Cape">暗影囚杀</a></li>
+                <li><a href="#Destroyer">暗影盛宴</a></li>
+            </ul>
         </div>
-    </section>
-</div>
-<div class="col m2 hide-on-small-and-down">
-    <div class="target">
-        <ul class="section table-of-contents">
-            <li><a href="#Black-Mirror">魔镜幻影阵</a></li>
-            <li><a href="#Liberate-madness">释魂狂怒</a></li>
-            <li><a href="#Congest">暗影蓄能</a></li>
-            <li><a href="#Deadly-Cape">暗影囚杀</a></li>
-            <li><a href="#Destroyer">暗影盛宴</a></li>
-        </ul>
-    </div>
+    </aside>
 </div>
 
 <script>
@@ -530,4 +533,10 @@
             offset: 130
         });
     })
+</script>
+<script>
+	pangu.spacingPage();
+	pangu.spacingElementById('main');
+	pangu.spacingElementByClassName('li');
+	pangu.spacingElementByTagName('p');
 </script>

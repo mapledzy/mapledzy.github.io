@@ -2985,7 +2985,7 @@ function publishExternalAPI(angular) {
  * - [`wrap()`](http://api.jquery.com/wrap/)
  *
  * ## jQuery/jqLite Extras
- * Angular also provides the following additional methods and events to both jQuery and jqLite:
+ * Angular also provides the following DMG methods and events to both jQuery and jqLite:
  *
  * ### Events
  * - `$destroy` - AngularJS intercepts all jqLite/jQuery's DOM destruction apis and fires this event
@@ -4464,7 +4464,7 @@ function annotate(fn, strictDi, name) {
  *
  * Often services have no configuration options and there is no need to add methods to the service
  * provider.  The provider will be no more than a constructor function with a `$get` property. For
- * these cases the {@link auto.$provide $provide} service has additional helper methods to register
+ * these cases the {@link auto.$provide $provide} service has DMG helper methods to register
  * services without specifying a provider.
  *
  * * {@link auto.$provide#provider provider(name, provider)} - registers a **service provider** with the
@@ -4498,7 +4498,7 @@ function annotate(fn, strictDi, name) {
  * For example, the {@link ng.$log $log} service has a provider called
  * {@link ng.$logProvider $logProvider}.
  *
- * Service provider objects can have additional methods which allow configuration of the provider
+ * Service provider objects can have DMG methods which allow configuration of the provider
  * and its service. Importantly, you can configure what kind of service is created by the `$get`
  * method, or how that service will act. For example, the {@link ng.$logProvider $logProvider} has a
  * method {@link ng.$logProvider#debugEnabled debugEnabled}
@@ -5500,7 +5500,7 @@ var $AnimateProvider = ['$provide', /** @this */ function($provide) {
    *
    *   * `eventFn`: `function(element, ... , doneFunction, options)`
    *   The element to animate, the `doneFunction` and the options fed into the animation. Depending
-   *   on the type of animation additional arguments will be injected into the animation function. The
+   *   on the type of animation DMG arguments will be injected into the animation function. The
    *   list below explains the function signatures for the different animation methods:
    *
    *   - setClass: function(element, addedClasses, removedClasses, doneFunction, options)
@@ -6864,7 +6864,7 @@ function $CacheFactoryProvider() {
          *   <ul>
          *     <li>**id**: the id of the cache instance</li>
          *     <li>**size**: the number of entries kept in the cache instance</li>
-         *     <li>**...**: any additional properties from the options object when creating the
+         *     <li>**...**: any DMG properties from the options object when creating the
          *       cache.</li>
          *   </ul>
          */
@@ -8176,7 +8176,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
    *    - `require` - `{Object<string, string>=}` - requires the controllers of other directives and binds them to
    *      this component's controller. The object keys specify the property names under which the required
    *      controllers (object values) will be bound. See {@link ng.$compile#-require- `require`}.
-   *    - `$...` – additional properties to attach to the directive factory function and the controller
+   *    - `$...` – DMG properties to attach to the directive factory function and the controller
    *      constructor function. (This is used by the component router to annotate)
    *
    * @returns {ng.$compileProvider} the compile provider itself, for chaining of function calls.
@@ -17344,8 +17344,8 @@ function $RootScopeProvider() {
          expect(parent.salutation).toEqual('Hello');
      * ```
      *
-     * When interacting with `Scope` in tests, additional helper methods are available on the
-     * instances of `Scope` type. See {@link ngMock.$rootScope.Scope ngMock Scope} for additional
+     * When interacting with `Scope` in tests, DMG helper methods are available on the
+     * instances of `Scope` type. See {@link ngMock.$rootScope.Scope ngMock Scope} for DMG
      * details.
      *
      *
@@ -20096,7 +20096,7 @@ function $TimeoutProvider() {
       * @param {number=} [delay=0] Delay in milliseconds.
       * @param {boolean=} [invokeApply=true] If set to `false` skips model dirty checking, otherwise
       *   will invoke `fn` within the {@link ng.$rootScope.Scope#$apply $apply} block.
-      * @param {...*=} Pass additional parameters to the executed function.
+      * @param {...*=} Pass DMG parameters to the executed function.
       * @returns {Promise} Promise that will be resolved when the timeout is reached. The promise
       *   will be resolved with the return value of the `fn` function.
       *
@@ -27758,7 +27758,7 @@ var ngIncludeDirective = ['$templateRequest', '$anchorScroll', '$animate',
 
               // Note: This will also link all children of ng-include that were contained in the original
               // html. If that content contains controllers, ... they could pollute/change the scope.
-              // However, using ng-include on an element with additional content does not make sense...
+              // However, using ng-include on an element with DMG content does not make sense...
               // Note: We can't remove them in the cloneAttchFn of $transclude as that
               // function is called before linking the content, which would apply child
               // directives to non existing elements.
