@@ -1,6 +1,4 @@
-const app = angular
-		.module('app', ['ui.router','percentage']);
-
+const app = angular.module('app', ['ui.router', 'percentage']);
 
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
 	$locationProvider.hashPrefix('Nemesis');
@@ -12,7 +10,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/home.html'
 					},
 					'title@': {
-						template: 'åºè¨€'
+						template: 'ĞòÑÔ'
 					}
 				}
 			})
@@ -23,7 +21,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/guide/guide-sub-0.html'
 					},
 					'title@': {
-						template: 'èŒä¸šç®€ä»‹'
+						template: 'Ö°Òµ¼ò½é'
 					}
 				}
 			})
@@ -34,7 +32,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/guide/guide-sub-1.html'
 					},
 					'title@': {
-						template: 'æ—¶è£…ã€é™„é­”ã€å¾½ç« '
+						template: 'Ê±×°¡¢¸½Ä§¡¢»ÕÕÂ'
 					}
 				}
 			})
@@ -45,7 +43,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/guide/guide-sub-2.html'
 					},
 					'title@': {
-						template: 'ç§°å·'
+						template: '³ÆºÅ'
 					}
 				}
 			})
@@ -56,7 +54,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/guide/guide-sub-3.html'
 					},
 					'title@': {
-						template: 'å® ç‰©'
+						template: '³èÎï'
 					}
 				}
 			});
@@ -71,7 +69,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/novice/novice-sub-0.html'
 					},
 					'title@': {
-						template: 'å…¥é—¨ç¯‡&nbsp;-&nbsp;<small>åŠ ç‚¹æ¨¡æ¿</small>'
+						template: 'ÈëÃÅÆª&nbsp;-&nbsp;<small>¼ÓµãÄ£°å</small>'
 					}
 				}
 			})
@@ -82,7 +80,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/novice/novice-sub-1.html'
 					},
 					'title@': {
-						template: 'å…¥é—¨ç¯‡&nbsp;-&nbsp;<small>è£…å¤‡æ¨è</small>'
+						template: 'ÈëÃÅÆª&nbsp;-&nbsp;<small>×°±¸ÍÆ¼ö</small>'
 					}
 				}
 			})
@@ -93,7 +91,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/novice/novice-sub-2.html'
 					},
 					'title@': {
-						template: 'å…¥é—¨ç¯‡&nbsp;-&nbsp;<small>Buffå †ç Œ</small>'
+						template: 'ÈëÃÅÆª&nbsp;-&nbsp;<small>Buff¶ÑÆö</small>'
 					}
 				}
 			});
@@ -108,7 +106,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/skills/skill_sub_0.html'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -119,7 +117,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/skills/skill_sub_1.html'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -130,7 +128,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/skills/skill_sub_2.html'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -142,7 +140,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						controller: 'main'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -154,7 +152,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						controller: 'main'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -165,7 +163,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/skills/skill_sub_common.html'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			})
@@ -176,28 +174,28 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/skills/skill_sub_ex.html'
 					},
 					'title@': {
-						template: 'ç¬¬ä¸‰ç« &nbsp;-&nbsp;<small>æŠ€èƒ½ç¯‡</small>'
+						template: 'µÚÈıÕÂ&nbsp;-&nbsp;<small>¼¼ÄÜÆª</small>'
 					}
 				}
 			});
-	//å®šä¹‰é“å…·åˆ†ç±»
+	//¶¨ÒåµÀ¾ß·ÖÀà
 	$stateProvider
 			.state('items', {
 				url: '/items'
 			});
-	//é“å…· - æ­¦å™¨
+	//µÀ¾ß - ÎäÆ÷
 	$stateProvider
 			.state('items.weapon', {
 				url: '/weapon',
 				views: {
 					'container@': {
 						templateUrl: 'html/items/weapon/weapon_index.html',
-						controller: function($state){
-							$state.go('items.weapon.dirk');//é»˜è®¤æ˜¾ç¤ºç¬¬ä¸€ä¸ªtab
-						}
+						controller: function ($state) {
+							$state.go('items.weapon.dirk');//Ä¬ÈÏÏÔÊ¾µÚÒ»¸ötab
+						},
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>æ­¦å™¨</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>ÎäÆ÷</small>'
 					}
 				}
 			})
@@ -208,7 +206,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/criterion.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>criterion</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>criterion</small>'
 					}
 				}
 			})
@@ -219,7 +217,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/weapon/dirk.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>çŸ­å‰‘</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>¶Ì½£</small>'
 					}
 				}
 			})
@@ -230,7 +228,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/weapon/katana.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>å¤ªåˆ€</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Ì«µ¶</small>'
 					}
 				}
 			})
@@ -241,7 +239,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/weapon/lswd.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>å·¨å‰‘</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>¾Ş½£</small>'
 					}
 				}
 			})
@@ -252,23 +250,23 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/weapon/blunt.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>é’å™¨</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>¶ÛÆ÷</small>'
 					}
 				}
 			});
-	//é“å…· - é˜²å…·
+	//µÀ¾ß - ·À¾ß
 	$stateProvider
 			.state('items.armors', {
 				url: '/armors',
 				views: {
 					'container@': {
 						templateUrl: 'html/items/armors/armors_index.html',
-						controller: function($state){
-							$state.go('items.armors.lv80');//é»˜è®¤æ˜¾ç¤ºç¬¬ä¸€ä¸ªtab
+						controller: function ($state) {
+							$state.go('items.armors.lv80');//Ä¬ÈÏÏÔÊ¾µÚÒ»¸ötab
 						}
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>é˜²å…·</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>·À¾ß</small>'
 					}
 				}
 			})
@@ -279,7 +277,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/criterion.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>criterion</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>criterion</small>'
 					}
 				}
 			})
@@ -290,7 +288,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/armors/lv_80.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>80çº§å¥—è£…</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>80¼¶Ì××°</small>'
 					}
 				}
 			})
@@ -301,7 +299,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/armors/lv_85.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>85çº§å¥—è£…</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>85¼¶Ì××°</small>'
 					}
 				}
 			})
@@ -312,7 +310,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/armors/lv_90a.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>90çº§å¥—è£…ï¼ˆAç±»ï¼‰</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>90¼¶Ì××°£¨AÀà£©</small>'
 					}
 				}
 			})
@@ -323,7 +321,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/armors/lv_90b.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>90çº§å¥—è£…ï¼ˆBç±»ï¼‰</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>90¼¶Ì××°£¨BÀà£©</small>'
 					}
 				}
 			})
@@ -334,23 +332,23 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/armors/scattered.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>æ•£ä»¶</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>É¢¼ş</small>'
 					}
 				}
 			});
-	//é“å…· - é¦–é¥°
+	//µÀ¾ß - Ê×ÊÎ
 	$stateProvider
 			.state('items.ring', {
 				url: '/ring',
 				views: {
 					'container@': {
 						templateUrl: 'html/items/ring/ring_index.html',
-						controller: function($state){
-							$state.go('items.ring.suit');//é»˜è®¤æ˜¾ç¤ºç¬¬ä¸€ä¸ªtab
+						controller: function ($state) {
+							$state.go('items.ring.suit');//Ä¬ÈÏÏÔÊ¾µÚÒ»¸ötab
 						}
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>é¦–é¥°</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Ê×ÊÎ</small>'
 					}
 				}
 			})
@@ -361,7 +359,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/criterion.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>criterion</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>criterion</small>'
 					}
 				}
 			})
@@ -372,7 +370,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/ring/suit.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>é¦–é¥°</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Ê×ÊÎ</small>'
 					}
 				}
 			})
@@ -383,7 +381,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/ring/scattered.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>é¦–é¥°</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Ê×ÊÎ</small>'
 					}
 				}
 			})
@@ -392,12 +390,12 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 				views: {
 					'container@': {
 						templateUrl: 'html/items/auxiliary/auxiliary_index.html',
-						controller: function($state){
-							$state.go('items.auxiliary.suit');//é»˜è®¤æ˜¾ç¤ºç¬¬ä¸€ä¸ªtab
+						controller: function ($state) {
+							$state.go('items.auxiliary.suit');//Ä¬ÈÏÏÔÊ¾µÚÒ»¸ötab
 						}
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>ç‰¹æ®Šè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>ÌØÊâ×°±¸</small>'
 					}
 				}
 			})
@@ -408,7 +406,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/auxiliary/suit.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>ç‰¹æ®Šè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>ÌØÊâ×°±¸</small>'
 					}
 				}
 			})
@@ -419,7 +417,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/items/auxiliary/scattered.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>ç‰¹æ®Šè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>ÌØÊâ×°±¸</small>'
 					}
 				}
 			})
@@ -428,13 +426,13 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 				views: {
 					'container@': {
 						templateUrl: 'html/degenerator/degenerator-index.html',
-						controller: function($state){
-							$state.go('items.degenerator.2&3');//é»˜è®¤æ˜¾ç¤ºç¬¬ä¸€ä¸ªtab
+						controller: function ($state) {
+							$state.go('items.degenerator.2&3');//Ä¬ÈÏÏÔÊ¾µÚÒ»¸ötab
 						}
 
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>æ­¦å™¨</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>ÎäÆ÷</small>'
 					}
 				}
 			})
@@ -445,7 +443,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/degenerator/degenerator-sub-0.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>å¼‚ç•Œè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Òì½ç×°±¸</small>'
 					}
 				}
 			})
@@ -456,7 +454,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/degenerator/degenerator-sub-1.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>å¼‚ç•Œè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Òì½ç×°±¸</small>'
 					}
 				}
 			})
@@ -467,7 +465,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/degenerator/degenerator-sub-2.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡ç¯‡&nbsp;-&nbsp;<small>å¼‚ç•Œè£…å¤‡</small>'
+						template: '×°±¸Æª&nbsp;-&nbsp;<small>Òì½ç×°±¸</small>'
 					}
 				}
 			});
@@ -479,7 +477,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 						templateUrl: 'html/count.html'
 					},
 					'title@': {
-						template: 'è£…å¤‡æå‡ç‡è®¡ç®—å™¨'
+						template: '×°±¸ÌáÉıÂÊ¼ÆËãÆ÷'
 					}
 				}
 			});
@@ -513,149 +511,309 @@ app.run(function ($rootScope) {
 			});
 
 });
-app.controller('main', ['$scope', function ($scope) {
-
-}]);
+app.filter("changeFirst", function () {
+	return function (str) {
+		let arr = str.split(" ");
+		arr = arr.map(function (ele) {
+			if (ele && ele[0].charCodeAt() >= 97 && ele[0].charCodeAt() <= 122) {
+				ele = ele[0].toUpperCase() + ele.substring(1);
+			}
+			return ele;
+		});
+		return arr.join(" ");¡¡¡¡¡¡¡¡//½«¸Ä±äºóµÄÊı×éarrÒÔ¿Õ¸ñÆ´½ÓÎª×Ö·û´®£¬×÷Îª·µ»ØÖµ
+	}
+});
 
 /*
  * @Count Items
  * Enhanched Damage
  * */
-app.controller('count', ['$scope','$filter',function ($scope, $filter) {
-	let THEMONSTERS = {};
-	let units = {};
-	const ITEMS = [];
+app.controller('count', ['$scope', '$filter',
+	function ($scope, $filter,) {
+		let THEMONSTERS = {};
+		let units = {};
+		let item = [];
 
-	//Resist
-	function Resist(fire, water, light, shadow) {
-		this.fire = fire;
-		this.water = water;
-		this.light = light;
-		this.shadow = shadow
-	}
+		/*
+		 * lukeRaid
+		 * luke
+		 * AntonRaid
+		 * */
+		$scope.surroundings = 'luckRaid';
 
-	//ç©å®¶é™„åŠ ä¼¤å®³
-	function Additional(CriticalUP = 0.2, White = 0.34, Yellow = 0.2, AtkUP = 0.17, AllUP = 0.35, SkillUP = 0.38768,
-	                    Intellect = 0.23, CriticalAdd = 0, whiteAdd = 0, yellowAdd = 0) {
-		this.criticalEnhance = CriticalUP;
-		this.criticalEnhanceUP = CriticalAdd;
-		this.whiteEnhance = White;
-		this.yellowEnhance = Yellow;
-		this.yellowEnhanceUP = yellowAdd;
-		this.AttackEnhance = AtkUP;
-		this.allAttackEnhance = AllUP;
-		this.skillEnhanchedDamage = SkillUP;
-		this.intellectEnhance = Intellect;
-	}
-
-	//æ€ªç‰©å±æ€§
-	function Monster(level, defense, fire, water, light, shadow, neglect = 0.8 ,MType) {
-		this.level = level;
-		this.myType = MType;
-		this.defense = defense;
-		this.ratio = this.getDecrement();
-		this.ignoreRatio = neglect;
-		this.resist = new Resist(fire, water, light, shadow);
-	}
-
-	//å®šä¹‰äººç‰©
-	function Unit(lv = 90, attack = {basis: 1214, rests: 1198, ignore: 0}, Intellect = 3610, Critical = 0.955, element = 192,
-	              additional = new Additional()) {
-		this.level = lv;
-		this.intellect = Intellect;
-		this.attack = attack;
-		this.critical = Critical;
-		this.elementIntensify = element;
-		this.DMG = additional
-	}
-
-	function Item(ATK, ignoreATK) {
-
-	}
-
-	//True æ–—ç¥ä¹‹å¼
-	$scope.medicine = false;
-	function isMedicine() {
-		if ($scope.medicine) {
-			return 0.12
-		}else {
-			return 0
+		/**
+		 * @description Creates a new resist of Monster
+		 * @constructor
+		 * @param {number} fire
+		 * @param {number} water
+		 * @param {number} light
+		 * @param {number} shadow
+		 */
+		function Resist(fire, water, light, shadow) {
+			this.fire = {
+				name: '»ğ',
+				attr: fire,
+				icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAC+klEQVQ4jWXUIXAbSRAF0GeXQYutmJZloczkQzazoMJsFrPkUAwddmansMCYxYfOQXFYDGUmM4udoOCKadGp2R5Yn52q/Kqunumanuk/83t23hyO2qqqVMNKFWHQKyyRoKfZbGylzDQsB06HpW3dWK1qD0KdablcanJj57CIVlBF+Dyu9M9G5pczl8u1JgqCTZOqCAeZPp0Pmb7j5s7th5m7CLMmKcJuRAhh0g/9kyHjA0dfTl2PK4UkqYpwEOnTlwk3KzYrzsZOJ5XrSWWsw65M/Uzjqs/rI2zYH6j+PDYOQuqh6hWUwfyMfoGCdyM+jExHhV6y1w+GQnlxyHzOrKYqORspe6GPyPQKiqA8RNPZ0QEGyk/E6Xe7IWwkd0urj3PXVw+sam4fLLdJpkp6XQb7+1h31V/PsO34HewL7MnU4PJ6IYMa7lbqrwt1LxTZGAl+nHXJl9+ZnnE1J5PzCoXohd0IKimlOokI89XaYpOybgRKST+4umdeM380r9N2OrfdrpFy09gLXTX95LwKsKm5T1YSYSmMrx4owvVirX79l4UwKcJgtnKweJRNY+d9oS0jHGUanx92FG5ubT88+Jo8RifgI7wZV36frSyajkWiGoSqoQ5cFNpvr7Tt38dtO9C2/160bfu5bd+8atu3w/bbINr3g2jfFNGeFNEOQ0tnk+OX8TCi3S2CMjEseXxPLxCcHzE9dFqFKiHVT/cKf1zw47bzsMq0G6lbHEF50InRhqNRN5+OTXQvvmo6hR0fMn3bXfb0bTdP7FYohwX71dNTJDf3T60ejEeUhX+yU9ig4PYdli92+66L7w7h9qSr9fJr5z/OuLp7/jvW29Q80fsxob/Ew4v1l118rx8oS65mzDfMF9TJ9IHzE4SBri2b5Len89pjz9i5f2r0WeLTjOBxsfZ4+t0PqAr0uLqzatIoGMbLBj/T/B97C8THB6eTgRnWyQCvRyXXtx4v7y1RPrX3c+7aL9gZdDp5Rvy65hn50x5ffor//uT/A1U/XxRiZ2ygAAAAAElFTkSuQmCC'
+			};
+			this.water = {
+				name: 'Ë®',
+				attr: water,
+				icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAADSElEQVQ4jWWUMUglVxSGP18mcAY2cC+kmCkC3mKLecXCmOq97rmQYrZTSKGdLxBYS+3cJQGzENhYbiqfXaxWq9VSq2i1Wul0O4EEZ6rMFOK7hXBSzLxoyIFzT3POuf/5/3Pv3GC0oknicHEMgFhDKAbEIiZGQsPqomVyVOB9ieCpqxxfl4DgvafIcxpfM2eigSKA98zMxI7GC2magok5erfK89UJ3heU+SVMS/Al4BERfOMRI3wmXz77UQi5vb/nnoAn9ivug4inTxN+/mETPv+C588sRSN8/+035EXJX3+W3N7eIoEQBAH3eILgCcEMj0gModAgCCE2SnAOXvUdAD+N+1yXEEqMWIeEIb4uaJoaIwaAnoQRhPOIjfAYkBgxjikxm3s1ZXdZCbyeFNRdTpsbYUyCtQ6w9MQ4MDENMUkyRMThXMp4dQGwbL6DKbD5yxSxEeury22xOFx/iFhHTUhoYwLvLYiwuDjg5VqfX/drag/DIWRDeHMAIeCSkKVhJ9D8gCRNWV9aYGfyG0V+CUzpIQYTJyRpnxd92Fi3NB0igO3lNm68gMTCmwk0WNZWEgbJlHRhCNZRNxBgHbFLKRuogSSGNGk3xQO248zSjgsQhZ6mOGHvvCK/MBgxFDXMJWs3+n7SLmz/EdkAMf+3s+trjg8POdzfpygKIudYXlrh+AyQ7ErTDdWVXdW/VfVGVbNd1aVd1Tv9r13d3Oh8tq2IUUCzEQooYtTMZ9oD8FOIIxDgooSibEf0tKMDFHXN6fEx1cUEfMPWBhwdwNYG4Bua6gxk9FEl+6SDLdX3n1RHb1XTLdXfVfWjqr78oHpzd6fZ1gdNRyMFdDRA9erBR4MWYYAHmHJ+VrBZRlQNOBeSX8PhZQuvLAouTvapzk+JDByMgfyBx4Mx9HMIPK1sIlAVFT4U8hx29kJcAttjaE4qpLkE4CgD+6jRTOmjDAIA6Rr++04tRBG8HbeKllHEME35I8/5er/N0dFDs7nTNvYEj/etQ9Oq4aGqIK/h1QmEzuHTMWmWPXTIH3lnPe/rbh1996c1MK0oCni9A6cnYMKQvBlQTJceKqtHPkOIJNouxWzG2SFAiBhI+3B5Db4poeNu9xFn33XxHyW5jC0YP0qWAAAAAElFTkSuQmCC'
+			};
+			this.light = {
+				name: '¹â',
+				attr: light,
+				icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAC0ElEQVQ4jZWUL3AbRxSHP2sE3rE9dsu0cMVORXKRBW3msJbF0GGdopoprC1rmM1qo6aohrFQL6gSUg6ekVdItyi37AWcHFvJTDv9zb15c3c7374/+/bg9KhU7z3WOQBMbjCSkQm4HEzRko8vCMsLQjBEMppNSwgJEFJKNHVNTC0H5cgoX8jmQmES1gnlRHhx3nD12lGtIrGFZgNtCwkQEVJMiBEGJhNMJpASpITJhJEFt7PD8nsAZocv8E7wVjAkICFIv/vODdj9MLlgcmHic+gi1vQwW84AcLPvsCZhSLjCMDv0kCIpRgTIgGEuAv2DdzkXv/xGs3wDcYmQIJvtkp/gc7ClMDs9xPmXvGp/pG5aJBMSiaGzsgs5ISkQlr/iTm6BFppv92o5mVqYvAMs1fUJpIC3QoiJ3AjDQiJ5AYUVLECsgA7IwX3Y78zk8b2DsKR0wiaByYVIxsC5x2InnAdrBZrxlw3eVzXGZGAtiCToErQtw1kp5FbAn4M9Bv4DBAR3S9M2pO5PnGkwsiLGBPo/tV6vdT6fq/deRUS99zqfz3W9Xisffy9U3xWq259Vdf2voIeHB53P52qMUUCPj1BARdDTqVHW80K3l4XqH4XqX0b170J1678Cbbdbvby81NFopID+9AOq294DagQdbkLqD78Bk0FGgvyfvRp1XUdVVVxfX3N/f8/RFF6/BELvqwoW72HQRghBqBuoG8DNduc5QNc3o2kabm5uWCwWFAbengH1k709g8LAMCaQlIhA4S2Mz2F5AqHqmTPYbDasVisAbo8hr/e7m+++D/sZ7adgtQpw8QpSYOwFHMAdRVFQlgV1XfPNTQ/QoyfYwaL3g88jv2PWdSAhdG2CAHR3OOc4O7Ucl8/WPkvzUYMIny+UR3BsYROFNgLvr8iyjKlUTO2z3DbPbKfhm7u4F1wfYH+tIJBnAu4Emnua9mnNFV/rE+SynsuvfTbsAAAAAElFTkSuQmCC'
+			};
+			this.shadow = {
+				name: '°µ',
+				attr: shadow,
+				icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAC/0lEQVQ4jYXUMYhcVRQG4G83b+E8mMB9kIV5heArUmwKYVMImy5bpkwKCzu1s9ROi4CxSwohpoqpTLpNI6ZQzFZuCiHTZew23QwozAMX5hQDY/FmY7Tx3OKce7n359z//+/dunlwc911na7rCEoEdRhGo18sRdYSbTsmmC1O9TlHWuTCdDrV58zWftlfAymHQkQhKdFqYkxfKzGWmQR99hYxk2ZEb9bPRAlVKMOGvkeKKEI4j1n/Wp8z+jCOPVcdapPTLLK0Fk6FVOPCO7rbpKhGoqqsMq0yjapGU12yu7qsrS6bO/Vb/mCaJ7rqsv04ZEXf/6Ee7bBKF94bXb1d2yF2rM5SpTKKXU0prCqXRu9oc8/h6JblWfrdC5PVsYsZ3neoLo0qKqvqzHaJYrgnoRFCHSH7FAZ+Ui+y+HJ814Hr4KlHXjmx75qSrca7todDoYmiiaKOZiC/hGhC5sIyUkbStz6NT4WC9DTvkQtX4sC47mxHBIkkhBJFIPs0nw3y9zlz2k8tY+maQ3s6MDc3yadKNixq26FRFHID2p9bIyz73Fhl6DSlEpv9m3iez0hyThUZ6ijoRYS0GPiK0BqfW3BAxMwrc/M3YBMTJ/lYRGu7Vix7GkWdIbIZhMhGxFA3WtHXZHrSPzE1BTcGLTzJe1576cKN6oPbO6OLRqtdoXExdtVVY2dVcTaya9el1Z5W508/+WZ1z5kzX3zGd/dZrfj5Rfpr9YcqsuhzrsRYoxm4O39cQVGEVjpxlI/NzV0/4M5HmA355ITjF69VdTQKpjl16JY2uoGepAR1soxXvu6fOHZsXDj6mM1NMcyvTDcCdPacmnjqjhv5oYPc10UzAFn6Np955hn48QbNW0DQbNa3Hvp1XaIj0yOfe+mlTqvVbtSbmZrq9f8CWF//p9463uT7flkXY0WnNnfkrgce+L9Yj98C2zhl6yvfrwcbXtHqjDH33JEjE5M3NtizJ4RjQxvrt4C3zvO79tZQCza/61BR/6ebmZmJCXj41vonm/w3+HVDtk29DZkAAAAASUVORK5CYII='
+			}
 		}
-	}
 
-	/*
-	 * decrement å‡ä¼¤ç‡è®¡ç®—ç»“æœ
-	 * */
-	Monster.prototype.getDecrement = function (lv) {
-		let decrement,
-				defense = this.defense;
-		// 1 - (æ€ªç‰©é˜²å¾¡ / (ç©å®¶ç­‰çº§ * 200 + æ€ªç‰©é˜²å¾¡))
-		decrement = 1 - (defense / (lv * 200 + defense));
-		return decrement;
-	};
-
-
-	THEMONSTERS.initial = new Monster(100, 194533.2, -31, -31, -11, -11);
-	units.defaultPlayer = new Unit();
-
-	function countHarm(unit, monster) {
-		return (
-				(
-						//æ™ºåŠ›*ï¼ˆ1 + æ™ºåŠ›æå‡ç™¾åˆ†ï¼‰ / 250 + 1
-						(unit.intellect * (1 + unit.DMG.intellectEnhance) / 250 + 1)
-						*
-						//åŸºæœ¬æ”»å‡» + å…¶ä»–æ”»å‡»
-						(unit.attack.basis + unit.attack.rests)
-						*
-						//    1 + æ”»å‡»åŠ›æå‡ç™¾åˆ†æ¯”
-						(1 + unit.DMG.AttackEnhance)
-						*
-						//		1 + å±æ€§å¼ºåŒ– / 2000 * 9
-						(1 + (unit.elementIntensify - monster.resist.shadow ) / 2000 * 9)
-						*
-						//		æ€ªç‰©å‡ä¼¤ç‡ + æ— è§†é˜²å¾¡æ”»å‡» * æ— è§†å‡ä¼¤
-						monster.getDecrement(unit.level) + unit.attack.ignore * monster.ignoreRatio
-				)
-				*
-				//		1 + (æš´å‡»ä¼¤å®³ * ï¼ˆ1 + æš´å‡»ä¼¤å®³å¢åŠ  + æš´å‡»ä¼¤å®³è¿½åŠ ï¼‰- 1 ) * äººç‰©æš´å‡»ç‡
-				(1 + (1.5 * (1 + unit.DMG.criticalEnhance + unit.DMG.criticalEnhanceUP) - 1) * unit.critical)
-				*
-				//		(1 + ç™½å­—é™„åŠ )
-				(1 + unit.DMG.whiteEnhance)
-				*
-				//		(1 + é»„å­—ä¼¤å®³ + é»„å­—ä¼¤å®³è¿½åŠ )
-				(1 + unit.DMG.yellowEnhance + unit.DMG.yellowEnhanceUP + isMedicine())
-				*
-				//		(1 + å…¨éƒ¨æ”»å‡»åŠ›å¢åŠ )
-				(1 + unit.DMG.allAttackEnhance)
-				*
-				//		(1 + æŠ€èƒ½æ”»å‡»å¢åŠ )
-				(1 + unit.DMG.skillEnhanchedDamage)
-		)
-	}
-
-	$scope.$watch('damage',(newDamage,oldDamege) => {
-		if (newDamage > oldDamege) {
-			let num = (newDamage - oldDamege) / oldDamege;
-			num = $filter('percentage')(num)
-			console.info(num)
-			$scope.tisp = `ä¼¤å®³ç›¸å¯¹äºä¹‹å‰æå‡${num}`
+		/**
+		 * @description Creates a new additional of Unit
+		 * @constructor
+		 * @param {number} [CriticalUP=0.2] - ±©»÷ÉËº¦
+		 * @param {number} [White=0.34] - ÉËº¦¸½¼Ó£¨°××Ö£©
+		 * @param {number} [Yellow=0.2] - ÉËº¦Ôö¼Ó£¨»Æ×Ö£©
+		 * @param {number} [AtkUP=0.17] - ¹¥»÷Á¦ÌáÉı
+		 * @param {number} [AllUP=0.35] - ËùÓĞ¹¥»÷Á¦Ôö¼Ó
+		 * @param {number} [SkillUP=0.38768] - ¼¼ÄÜÉËº¦Ôö¼Ó
+		 * @param {number} [Intellect=0.23] - ÖÇÁ¦Ôö¼Ó
+		 * @param {number} [CriticalAdd=0] - ±©»÷ÉËº¦×·¼Ó
+		 * @param {number} [yellowAdd=0] - »Æ×ÖÉËº¦×·¼Ó
+		 */
+		function Additional(CriticalUP = 0.2, White = 0.34, Yellow = 0.2, AtkUP = 0.17, AllUP = 0.35, SkillUP = 0.38768,
+		                    Intellect = 0.23, CriticalAdd = 0, yellowAdd = 0) {
+			this.criticalEnhance = CriticalUP;
+			this.criticalEnhanceUP = CriticalAdd;
+			this.whiteEnhance = White;
+			this.yellowEnhance = Yellow;
+			this.yellowEnhanceUP = yellowAdd;
+			this.AttackEnhance = AtkUP;
+			this.allAttackEnhance = AllUP;
+			this.skillEnhanchedDamage = SkillUP;
+			this.intellectEnhance = Intellect;
 		}
-		else
-		{
-			let num = (newDamage - oldDamege) / oldDamege;
-			num = $filter('percentage')(num)
-			console.info(num)
-			$scope.tisp = `ä¼¤å®³ç›¸å¯¹äºä¹‹å‰æå‡${num}`
-		}
-	})
 
-	$scope.initial = THEMONSTERS.initial;
-	$scope.player = units.defaultPlayer;
-	$scope.dmgAttr = units.defaultPlayer.DMG;
-	$scope.countHarm = countHarm;
-	$scope.damage = countHarm($scope.player, $scope.initial)
-}]);
+		/**
+		 * @description Creates a new Monster
+		 * @constructor
+		 * @param {number} level - µÈ¼¶
+		 * @param {number} defense - ·ÀÓùÁ¦
+		 * @param {number} fire - »ğÊôĞÔ¿¹ĞÔ
+		 * @param {number} water - ±ùÊôĞÔ¿¹ĞÔ
+		 * @param {number} light - ¹âÊôĞÔ¿¹ĞÔ
+		 * @param {number} shadow - °µÊôĞÔ¿¹ĞÔ
+		 * @param {number=} [neglect=0.8] - ¸±±¾ÎŞÊÓ¼õÉËÂÊ
+		 */
+		function Monster(level, defense, fire, water, light, shadow, neglect = 0.8) {
+			this.level = level;
+			this.defense = defense;
+			this.ratio = this.getDecrement();
+			this.ignoreRatio = neglect;
+			this.resist = new Resist(fire, water, light, shadow);
+		}
+
+		/**
+		 * @description Creates a new Unit
+		 * @constructor
+		 * @param {number=} [lv=90] - µÈ¼¶
+		 * @param {Object} [attack={
+	 * 		              basis: 1214,
+	 * 		              rests: 1198,
+	 * 		              ignore: 0
+	 * 	              }] - basis£º»ù´¡¹¥»÷ rests£ºÆäËû¹¥»÷ ignore:ÎŞÊÓ·ÀÓù¹¥»÷
+		 * @param {number=} [Intellect=3610] - ÖÇÁ¦
+		 * @param {number=} [Critical=0.955] - ±©»÷ÂÊ
+		 * @param {number=} [element=192] - ÊôĞÔÇ¿»¯
+		 * @param {function=} [additional=new Additional()] - ÈËÎïµÄ¸½¼ÓÉËº¦ÊôĞÔ
+		 */
+		function Unit(lv = 90, attack = {
+			              basis: 1214,
+			              rests: 1198,
+			              ignore: 0
+		              }, Intellect = 3610, Critical = 0.955, element = 192,
+		              additional = new Additional()) {
+			this.level = lv;
+			this.intellect = Intellect;
+			this.attack = attack;
+			this.critical = Critical;
+			this.elementIntensify = element;
+			this.DMG = additional
+		}
+
+		/**
+		 * @description Creates a new Item.
+		 * @constructor
+		 * @param {number} ATK - »ù±¾¹¥»÷
+		 * @param {number} ignoreATK - ÎŞÊÓ·ÀÓù¹¥»÷
+		 * @param {number} intellect - ÖÇÁ¦Öµ
+		 * @param {number} critical - ±©»÷ÂÊ (%)
+		 * @param {number} elementIntensify - ÊôĞÔÇ¿»¯
+		 * @param {number} criticalEnhance - ±©»÷ÉËº¦Ôö¼Ó (%)
+		 * @param {number} criticalEnhanceUP - ±©»÷ÉËº¦×·¼Ó (%)
+		 * @param {number} whiteEnhance - °××Ö¸½¼Ó (%)
+		 * @param {number} yellowEnhance - ÉËº¦Ôö¼Ó£¨»Æ×Ö£©
+		 * @param {number} intellectEnhance - ÖÇÁ¦ÌáÉı (%)
+		 * @param {number} AttackEnhance - ¹¥»÷Á¦ÌáÉı (%)
+		 * @param {number} allAttackEnhance - ËùÓĞ¹¥»÷Á¦ÌáÉı (%)
+		 * @param {number} skillEnhanceDamage - ¼¼ÄÜÉËº¦Ôö¼Ó (%)
+		 * @param {number} yellowEnhanceUP - »Æ×ÖÉËº¦×·¼Ó (%)
+		 */
+		function Item(ATK, ignoreATK, intellect, critical, elementIntensify, criticalEnhance, criticalEnhanceUP, whiteEnhance, yellowEnhance, intellectEnhance, AttackEnhance, allAttackEnhance, skillEnhanceDamage, yellowEnhanceUP) {
+			this.attack = ATK;
+			this.ignoreAtk = ignoreATK;
+			this.attackEnhance = AttackEnhance;
+			this.intellect = intellect;
+			this.intellectEnhance = intellectEnhance;
+			this.critical = critical;
+			this.elementIntensify = elementIntensify;
+			this.criticalEnhance = criticalEnhance;
+			this.criticalEnhanceUP = criticalEnhanceUP;
+			this.whiteEnhance = whiteEnhance;
+			this.yellowEnhance = yellowEnhance;
+			this.yellowEnhanceUP = yellowEnhanceUP;
+			this.allAttackEnhance = allAttackEnhance;
+			this.skillEnhanchedDamage = skillEnhanceDamage;
+		}
+
+		$scope.medicine = false;
+		/**
+		 * @description ÊÇ·ñÊ¹ÓÃ¶·ÉñÖ®ºğ
+		 *
+		 * @param {boolean} [hasMedicine=$scope.medicine] - False's none  True's use. default's False
+		 * @returns number
+		 *
+		 */
+		function hasMedicine(hasMedicine = $scope.medicine) {
+			if (hasMedicine) {
+				return 0.12
+			} else {
+				return 0
+			}
+		}
+
+		/**
+		 * @description ÊôĞÔÇ¿»¯ÌáÉı¼ÆËã
+		 * @param {number} elementIntensify - ÊôĞÔÇ¿»¯
+		 * @param {object} resist - ¹ÖÎï¿¹ĞÔ
+		 * @returns {number} 1 + (ÊôĞÔÇ¿»¯ - ¹ÖÎï¿¹ĞÔ) / 2000 * 9
+		 */
+		function elementIntensify(elementIntensify,resist) {return 1 + (elementIntensify - resist ) / 2000 * 9}
+
+
+		Monster.prototype = {
+			/**
+			 * @description »ñÈ¡¹ÖÎï¼õÉËÂÊ
+			 *
+			 * @param {number} lv : ¹¥»÷·½µÈ¼¶
+			 * @param {string} [surroundings=$scope.surroundings]
+			 * @returns number
+			 */
+			getDecrement: function (lv, surroundings = $scope.surroundings) {
+				let decrement,
+						defense = this.defense;
+				// 1 - (¹ÖÎï·ÀÓù / (Íæ¼ÒµÈ¼¶ * 200 + ¹ÖÎï·ÀÓù))
+				decrement = (defense / (lv * 200 + defense));
+				switch (surroundings) {
+					case 'luckRaid' :
+						if (decrement <= 0.9104) {
+							return 0.9104;
+						} else {
+							return decrement
+						}
+					case 'luke' :
+						if (decrement <= 0.8904) {
+							return 0.8904;
+						} else {
+							return decrement
+						}
+					case 'antonRaid' :
+						if (decrement <= 0.8112) {
+							return 0.8112;
+						} else {
+							return decrement
+						}
+				}
+
+				return decrement
+			}
+		};
+
+		THEMONSTERS.initial = new Monster(100, 194533.2, -31, -31, -11, -11);
+		units.defaultPlayer = new Unit();
+		/**
+		 * ÓÄ»ê÷ÈÓ°
+		 * @type {Item}
+		 */
+		item.phantom =  new Item(150, 0, 758, 0.045, 195, 0, 0, 0.27, 0, 0, 0, 0, 0, 0);
+
+		/**
+		 * @description ¼ÆËã¶Ô¹ÖÎïµÄÉËº¦
+		 *
+		 * @param {number} unit
+		 * @param {number} monster
+		 * @returns {number} ¶Ô¹ÖÎïÔì³ÉµÄÉËº¦
+		 */
+		function result(unit, monster) {
+			return (
+					(
+							//ÖÇÁ¦*£¨1 + ÖÇÁ¦ÌáÉı°Ù·Ö£© / 250 + 1
+							(unit.intellect * (1 + unit.DMG.intellectEnhance) / 250 + 1)
+							*
+							//»ù±¾¹¥»÷ + ÆäËû¹¥»÷
+							(unit.attack.basis + unit.attack.rests)
+							*
+							//    1 + ¹¥»÷Á¦ÌáÉı°Ù·Ö±È
+							(1 + unit.DMG.AttackEnhance)
+							*
+							elementIntensify(unit.elementIntensify,monster.resist.shadow.attr)
+							*
+							//		¹ÖÎï¼õÉËÂÊ + ÎŞÊÓ·ÀÓù¹¥»÷ * ÎŞÊÓ¼õÉË
+							(1 - monster.getDecrement(unit.level)) + unit.attack.ignore * monster.ignoreRatio
+					)
+					*
+					//		1 + (±©»÷ÉËº¦ * £¨1 + ±©»÷ÉËº¦Ôö¼Ó + ±©»÷ÉËº¦×·¼Ó£©- 1 ) * ÈËÎï±©»÷ÂÊ
+					(1 + (1.5 * (1 + unit.DMG.criticalEnhance + unit.DMG.criticalEnhanceUP) - 1) * unit.critical)
+					*
+					//		(1 + °××Ö¸½¼Ó)
+					(1 + unit.DMG.whiteEnhance)
+					*
+					//		(1 + »Æ×ÖÉËº¦ + »Æ×ÖÉËº¦×·¼Ó)
+					(1 + unit.DMG.yellowEnhance + unit.DMG.yellowEnhanceUP + hasMedicine())
+					*
+					//		(1 + È«²¿¹¥»÷Á¦Ôö¼Ó)
+					(1 + unit.DMG.allAttackEnhance)
+					*
+					//		(1 + ¼¼ÄÜ¹¥»÷Ôö¼Ó)
+					(1 + unit.DMG.skillEnhanchedDamage)
+			)
+		}
+
+		$scope.$watch('damage', (newDamage, oldDamege) => {
+			if (newDamage > oldDamege) {
+				let num = (newDamage - oldDamege) / oldDamege;
+				num = $filter('percentage')(num);
+				console.info(num);
+				$scope.tisp = `ÉËº¦Ïà¶ÔÓÚÖ®Ç°ÌáÉı${num}`
+			}
+			else {
+				let num = (newDamage - oldDamege) / oldDamege;
+				num = $filter('percentage')(num);
+				console.info(num);
+				$scope.tisp = `ÉËº¦Ïà¶ÔÓÚÖ®Ç°ÌáÉı${num}`
+			}
+		});
+
+		$scope.initial = THEMONSTERS.initial;
+		$scope.player = units.defaultPlayer;
+		$scope.dmgAttr = units.defaultPlayer.DMG;
+		$scope.result = result;
+		$scope.damage = result($scope.player, $scope.initial)
+	}]);
 
 (() => {
 	document.body.onselectstart = function () {
