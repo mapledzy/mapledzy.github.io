@@ -136,8 +136,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			url: '/3',
 			views: {
 				'container@': {
-					templateUrl: 'html/skills/skill_sub_3.html',
-					controller: 'main'
+					templateUrl: 'html/skills/skill_sub_3.html'
 				},
 				'title@': {
 					template: '第三章&nbsp;-&nbsp;<small>技能篇</small>'
@@ -148,8 +147,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			url: '/4',
 			views: {
 				'container@': {
-					templateUrl: 'html/skills/skill_sub_4.html',
-					controller: 'main'
+					templateUrl: 'html/skills/skill_sub_4.html'
 				},
 				'title@': {
 					template: '第三章&nbsp;-&nbsp;<small>技能篇</small>'
