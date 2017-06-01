@@ -184,7 +184,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 	//道具 - 武器
 	$stateProvider
 		.state('items.weapon', {
-			url: '/weapon',
+			url: '/weapons',
 			views: {
 				'container@': {
 					templateUrl: 'html/items/weapon/weapon_index.html',
@@ -209,10 +209,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			}
 		})
 		.state('items.weapon.dirk', {
-			url: '/dirk',
+			url: '/shortSword',
 			views: {
 				'items': {
-					templateUrl: 'html/items/weapon/dirk.html'
+					templateUrl: 'html/items/weapon/shortSword.html'
 				},
 				'title@': {
 					template: '装备篇&nbsp;-&nbsp;<small>短剑</small>'
@@ -231,10 +231,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			}
 		})
 		.state('items.weapon.lswd', {
-			url: '/lswd',
+			url: '/zanbato',
 			views: {
 				'items': {
-					templateUrl: 'html/items/weapon/lswd.html'
+					templateUrl: 'html/items/weapon/zanbato.html'
 				},
 				'title@': {
 					template: '装备篇&nbsp;-&nbsp;<small>巨剑</small>'
@@ -242,10 +242,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			}
 		})
 		.state('items.weapon.blunt', {
-			url: '/blunt',
+			url: '/bludgeon',
 			views: {
 				'items': {
-					templateUrl: 'html/items/weapon/blunt.html'
+					templateUrl: 'html/items/weapon/bludgeon.html'
 				},
 				'title@': {
 					template: '装备篇&nbsp;-&nbsp;<small>钝器</small>'
@@ -468,14 +468,14 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 			}
 		});
 	$stateProvider
-		.state('count', {
-			url: '/count',
+		.state('postscript', {
+			url: '/postscript',
 			views: {
 				'container@': {
-					templateUrl: 'html/count.html'
+					templateUrl: 'html/postscript.html'
 				},
 				'title@': {
-					template: '装备提升率计算器'
+					template: '后记'
 				}
 			}
 		});
@@ -508,18 +508,6 @@ app.run(function ($rootScope) {
 			$('html, body').animate({ scrollTop: 0 }, 0);
 		});
 
-});
-app.filter("changeFirst", function () {
-	return function (str) {
-		let arr = str.split(" ");
-		arr = arr.map(function (ele) {
-			if (ele && ele[0].charCodeAt() >= 97 && ele[0].charCodeAt() <= 122) {
-				ele = ele[0].toUpperCase() + ele.substring(1);
-			}
-			return ele;
-		});
-		return arr.join(" ");　　　　//将改变后的数组arr以空格拼接为字符串，作为返回值
-	}
 });
 
 document.body.onselectstart = function () {
