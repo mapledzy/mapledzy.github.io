@@ -151,7 +151,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skill_sub_3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skill_sub_3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/skills/skill_sub_3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="678">
@@ -173,6 +173,87 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lv_90b.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/items/armors/lv_90b.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="756" column="40" lean-forward="false" selection-start-line="756" selection-start-column="40" selection-end-line="756" selection-end-column="40" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#4592#4598#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#7892#7898#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#11106#11112#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#14673#14679#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#17996#18002#0" expanded="true" />
+                <element signature="e#18692#18698#0" expanded="true" />
+                <element signature="e#18774#18780#0" expanded="true" />
+                <element signature="e#18786#18792#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#1;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#24180#24186#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#1;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#27273#27279#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#1;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#30630#30636#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#1;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#33917#33923#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#1;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#37168#37174#0" expanded="true" />
+                <element signature="e#37845#37851#0" expanded="true" />
+                <element signature="e#37930#37936#0" expanded="true" />
+                <element signature="e#37942#37948#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#42158#42164#0" expanded="true" />
+                <element signature="e#42167#42173#0" expanded="true" />
+                <element signature="e#42174#42180#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#45281#45287#0" expanded="true" />
+                <element signature="e#45290#45296#0" expanded="true" />
+                <element signature="e#45297#45303#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#48631#48637#0" expanded="true" />
+                <element signature="e#48640#48646#0" expanded="true" />
+                <element signature="e#48647#48653#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#51873#51879#0" expanded="true" />
+                <element signature="e#51882#51888#0" expanded="true" />
+                <element signature="e#51889#51895#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#55131#55137#0" expanded="true" />
+                <element signature="e#55140#55146#0" expanded="true" />
+                <element signature="e#55147#55153#0" expanded="true" />
+                <element signature="e#55952#55958#0" expanded="true" />
+                <element signature="e#56037#56043#0" expanded="true" />
+                <element signature="e#56049#56055#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#3;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#60473#60479#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#3;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#63784#63790#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#3;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#67118#67124#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#3;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#70417#70423#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#3;n#article#0;n#!!top" expanded="true" />
+                <element signature="e#73697#73703#0" expanded="true" />
+                <element signature="e#74468#74474#0" expanded="true" />
+                <marker date="1502034360991" expanded="false" signature="76709:79048" ph="data:" />
+                <marker date="1502034360991" expanded="false" signature="79100:79106" ph=" " />
+                <marker date="1502034360991" expanded="false" signature="79989:82396" ph="data:" />
+                <marker date="1502034360991" expanded="false" signature="82448:82454" ph=" " />
+                <marker date="1502034360991" expanded="false" signature="83330:85817" ph="data:" />
+                <marker date="1502034360991" expanded="false" signature="85869:85875" ph=" " />
+                <marker date="1502034360991" expanded="false" signature="86646:89193" ph="data:" />
+                <marker date="1502034360991" expanded="false" signature="89245:89251" ph=" " />
+                <marker date="1502034360991" expanded="false" signature="90075:92462" ph="data:" />
+                <marker date="1502034360991" expanded="false" signature="92514:92520" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -182,12 +263,14 @@
       <find>&lt;kbd&gt;装备属性指令&lt;/kbd&gt;</find>
       <find>卢克团队</find>
       <find>[释魂狂怒]</find>
+      <find>荒古遗尘短剑</find>
     </findStrings>
     <replaceStrings>
       <replace>装备属性指令</replace>
       <replace>&lt;span class=&quot;monster&quot;&gt;卢克团队&lt;/span&gt;</replace>
       <replace>&lt;span class=&quot;item&quot;&gt;沉默之创造&lt;/span&gt;</replace>
       <replace>&lt;span class=&quot;skill&quot;&gt;释魂狂怒&lt;/span&gt;</replace>
+      <replace>&lt;span class=&quot;item&quot;&gt;荒古遗尘短剑&lt;/span&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -208,6 +291,7 @@
         <option value="$PROJECT_DIR$/html/items/auxiliary/suit.html" />
         <option value="$PROJECT_DIR$/html/items/auxiliary/scattered.html" />
         <option value="$PROJECT_DIR$/html/skills/skill_sub_3.html" />
+        <option value="$PROJECT_DIR$/html/items/armors/lv_90b.html" />
       </list>
     </option>
   </component>
@@ -259,6 +343,13 @@
               <item name="mapledzy.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapledzy.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapledzy.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mapledzy.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -404,13 +495,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4524000" />
+    <option name="totallyTimeSpent" value="5811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15595363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15595363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -469,13 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/items/weapon/weapon_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3392">
@@ -920,6 +1004,85 @@
             <marker date="1502033053580" expanded="false" signature="19653:22108" ph="data:" />
             <marker date="1502033053580" expanded="false" signature="22198:22204" ph=" " />
             <marker date="1502033053580" expanded="false" signature="22205:22211" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/items/armors/lv_90b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="756" column="40" lean-forward="false" selection-start-line="756" selection-start-column="40" selection-end-line="756" selection-end-column="40" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#4592#4598#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#7892#7898#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#11106#11112#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#14673#14679#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#17996#18002#0" expanded="true" />
+            <element signature="e#18692#18698#0" expanded="true" />
+            <element signature="e#18774#18780#0" expanded="true" />
+            <element signature="e#18786#18792#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#1;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#24180#24186#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#1;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#27273#27279#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#1;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#30630#30636#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#1;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#33917#33923#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#1;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#37168#37174#0" expanded="true" />
+            <element signature="e#37845#37851#0" expanded="true" />
+            <element signature="e#37930#37936#0" expanded="true" />
+            <element signature="e#37942#37948#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#42158#42164#0" expanded="true" />
+            <element signature="e#42167#42173#0" expanded="true" />
+            <element signature="e#42174#42180#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#45281#45287#0" expanded="true" />
+            <element signature="e#45290#45296#0" expanded="true" />
+            <element signature="e#45297#45303#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#48631#48637#0" expanded="true" />
+            <element signature="e#48640#48646#0" expanded="true" />
+            <element signature="e#48647#48653#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#51873#51879#0" expanded="true" />
+            <element signature="e#51882#51888#0" expanded="true" />
+            <element signature="e#51889#51895#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#55131#55137#0" expanded="true" />
+            <element signature="e#55140#55146#0" expanded="true" />
+            <element signature="e#55147#55153#0" expanded="true" />
+            <element signature="e#55952#55958#0" expanded="true" />
+            <element signature="e#56037#56043#0" expanded="true" />
+            <element signature="e#56049#56055#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#1;n#section#3;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#60473#60479#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#2;n#section#3;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#63784#63790#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#3;n#section#3;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#67118#67124#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#4;n#section#3;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#70417#70423#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#h5#0;n#section#5;n#section#3;n#article#0;n#!!top" expanded="true" />
+            <element signature="e#73697#73703#0" expanded="true" />
+            <element signature="e#74468#74474#0" expanded="true" />
+            <marker date="1502034360991" expanded="false" signature="76709:79048" ph="data:" />
+            <marker date="1502034360991" expanded="false" signature="79100:79106" ph=" " />
+            <marker date="1502034360991" expanded="false" signature="79989:82396" ph="data:" />
+            <marker date="1502034360991" expanded="false" signature="82448:82454" ph=" " />
+            <marker date="1502034360991" expanded="false" signature="83330:85817" ph="data:" />
+            <marker date="1502034360991" expanded="false" signature="85869:85875" ph=" " />
+            <marker date="1502034360991" expanded="false" signature="86646:89193" ph="data:" />
+            <marker date="1502034360991" expanded="false" signature="89245:89251" ph=" " />
+            <marker date="1502034360991" expanded="false" signature="90075:92462" ph="data:" />
+            <marker date="1502034360991" expanded="false" signature="92514:92520" ph=" " />
           </folding>
         </state>
       </provider>
