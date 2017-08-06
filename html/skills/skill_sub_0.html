@@ -548,12 +548,12 @@
                 </small>
             </h3>
             <ul>
-                <li><span class="attr">学习等级</span>：Lv 25</li>
-                <li><span class="attr">所需SP</span>：25</li>
-                <li><span class="attr">最大可学等级</span>：Lv 10（精通）</li>
-                <li><span class="attr">精通等级</span>：Lv 10</li>
-                <li><span class="attr">掌握上限等级</span>：Lv 20</li>
-                <li><span class="attr">加点建议</span>：满级</li>
+                <li><span class="attr">学习等级</span>Lv 25</li>
+                <li><span class="attr">学习等级</span>25</li>
+                <li><span class="attr">学习等级</span>Lv 10（精通）</li>
+                <li><span class="attr">学习等级</span>Lv 10</li>
+                <li><span class="attr">学习等级</span>Lv 20</li>
+                <li><span class="attr">加点建议</span>满级</li>
             </ul>
             <h4 class="section-h4">技能描述</h4>
             <p>汲取敌人的灵魂，增强自身的技能攻击力。</p>
@@ -613,11 +613,9 @@
             <h4 class="section-h4">技能说明</h4>
             <ul class="browser-default">
                 <li>
-                    汲魂量上限的计算方式：汲魂量上限=（<span class="skill">汲魂之力</span>+<span class="skill">强化-汲魂之力</span>）&times;（1+<span
-                        class="item">黑暗契约</span>3件套加成）&times;（1+<span class="item">黑暗契约</span>6件套加成）&times;（1+<span
-                        class="item">黑暗契约</span>9件套加成）。
+                    汲魂量上限的计算方式：汲魂量上限=（<span class="skill">汲魂之力</span>+<span class="skill">强化-汲魂之力</span>）*（1+<span class="skill">黑暗契约</span>3件套加成）*（1+<span class="skill">黑暗契约</span>6件套加成）*（1+<span class="skill">黑暗契约</span>9件套加成）。
                     <br>
-                    计算结果向下取整数（实际汲魂量上限采取的是向下取整方式，而技能说明中采取的是四舍五入方式，二者不相同）。
+                    计算结果向下取整数（<strong>实际汲魂量上限采取的是向下取整方式，而技能说明中采取的是四舍五入方式，二者不相同</strong>）。
                 </li>
                 <li>
                     转职后技能（包括<span class="skill">影刃</span>）攻击并命中敌人时，一定几率汲取敌人的灵魂并增加角色的汲魂量。
@@ -626,20 +624,52 @@
                 </li>
                 <li>
                     因部分技能而消耗灵魂后，将获得在一定时间内维持原有<span class="skill">汲魂之力</span>技能攻击力增加率的Buff。
-                    <br>
                     Buff维持时间内，无论汲魂量如何降低，技能攻击力增加率依然保持最先使用技能前的状态不变。若汲魂量升高至超过最先使用技能前的灵魂数，则维持Buff提前结束。
                     <br>
                     Buff维持时间结束后，技能攻击力增加率将以当前汲魂量重新计算。
                 </li>
+                <li>每次汲取灵魂时会刷新汲魂上限，此时若汲魂量超过汲魂上限，则超出部分抹去。</li>
                 <li>
-                    每次汲取灵魂时会刷新汲魂上限，此时若汲魂量超过汲魂上限，则超出部分抹去。
-                    <br>
-                    故使用<span class="item">黑暗契约</span>套装换装来提高汲魂量上限是几乎不具备实战意义的。
+                    汲魂量上限在技能等级达到Lv 10以上的数据（默认<span class="skill">强化 - 汲魂之力</span>的技能等级为Lv 5）：
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>Lv 11+Ex 5</th>
+                                <th>Lv 12+Ex 5</th>
+                                <th>Lv 13+Ex 5</th>
+                                <th>Lv 14+Ex 5</th>
+                                <th>Lv 15+Ex 5</th>
+                                <th>Lv 16+Ex 5</th>
+                                <th>Lv 17+Ex 5</th>
+                                <th>Lv 18+Ex 5</th>
+                                <th>Lv 19+Ex 5</th>
+                                <th>Lv 20+Ex 5</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>汲魂量上限</td>
+                                <td>42个</td>
+                                <td>44个</td>
+                                <td>45个</td>
+                                <td>47个</td>
+                                <td>49个</td>
+                                <td>51个</td>
+                                <td>52个</td>
+                                <td>54个</td>
+                                <td>56个</td>
+                                <td>58个</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </li>
             </ul>
             <h4 class="section-h4">异界加持</h4>
             <dl>
-                <dt class="degenerator-2">2期勇者 - [黑暗契约] 套装</dt>
+                <dt class="degenerator-2">2期勇者 - <span class="skill">黑暗契约</span> 套装</dt>
                 <dd><span>[3]</span>&nbsp;-&nbsp;套装效果 汲魂量上限+40% 汲取灵魂的延迟动作删除</dd>
                 <dd><span>[6]</span>&nbsp;-&nbsp;套装效果 汲魂量上限+30% 汲魂率+25%</dd>
                 <dd><span>[9]</span>&nbsp;-&nbsp;套装效果 汲魂量上限+20% 汲魂率+20%</dd>
@@ -647,10 +677,8 @@
             <div class="border-purple">
                 <h5>技能点评</h5>
                 <p>核心被动技能，依靠汲取敌人的灵魂增加自身的技能攻击力是暗帝的职业特色之一，同时也是提升伤害的主要手段。</p>
-                <p>此外，也是施放<span class="skill">释魂飞弹</span>、<span
-                        class="skill">释魂狂怒</span>的先决条件，以及额外提升<span class="skill">天罚死光</span>、<span
-                        class="skill">天罚之剑</span>、<span class="skill">神罚：灭世裁决</span>技能攻击力的重要方式。</p>
-                <p>核心被动技能，建议SP&TP双满，同时也推荐通过合理手段（时装、白金徽章等）进行堆砌。</p>
+                <p>此外，也是施放<span class="skill">释魂飞弹</span>、<span class="skill">释魂狂怒</span>的先决条件，以及额外提升<span class="skill">天罚死光</span>、<span class="skill">天罚之剑</span>、<span class="skill">神罚：灭世裁决</span>技能攻击力的重要方式。</p>
+                <p>核心被动技能，建议SP&TP双满，同时也推荐通过合理手段（<strong>时装、白金徽章等</strong>）进行堆砌。</p>
             </div>
         </section>
         <section id="Scaffold" class="section scrollspy">
@@ -1002,7 +1030,7 @@
             </ul>
             <h4 class="section-h4">异界加持</h4>
             <dl class="card-action">
-                <dt class="degenerator-2">2期勇者 - [黑暗契约] 套装</dt>
+                <dt class="degenerator-2">2期勇者 - <span class="skill">黑暗契约</span> 套装</dt>
                 <dd><span>[3]</span>&nbsp;-&nbsp;套装效果 攻击力+10%</dd>
                 <dd><span>[6]</span>&nbsp;-&nbsp;套装效果 攻击力+10% 敌人承受的飞弹数上限+50%</dd>
                 <dd><span>[9]</span>&nbsp;-&nbsp;套装效果 CD-30% 敌人承受的飞弹数上限+50% 发射数量上限+50%</dd>
